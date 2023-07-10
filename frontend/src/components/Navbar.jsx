@@ -4,7 +4,7 @@ import { IconMenu2 } from "@tabler/icons-react";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-300">
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn">Join</a>
         </div>
       </div>
     </>
