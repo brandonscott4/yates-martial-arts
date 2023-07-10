@@ -19,6 +19,49 @@ function Home() {
           </p>
         </div>
       </div>
+
+      <div className="w-screen flex flex-wrap bg-gray-200 gap-24 justify-center py-20">
+        <div className="w-64 bg-white rounded-2xl p-8 shadow-2xl">
+          <h3 className="font-bold text-xl">About Us</h3>
+          <div className="divider"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            facilis totam accusantium laudantium aut? Dolorem minima vitae
+            tempora nam odio consequuntur ipsa, cupiditate in adipisci minus
+            fugit aliquid, nostrum quae!
+          </p>
+        </div>
+
+        <div className=" w-64 bg-white rounded-2xl p-8 shadow-2xl">
+          <h3 className="font-bold text-xl">About Us</h3>
+          <div className="divider"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            facilis totam accusantium laudantium aut? Dolorem minima vitae
+            tempora nam odio consequuntur ipsa, cupiditate in adipisci minus
+            fugit aliquid, nostrum quae!
+          </p>
+        </div>
+
+        <div className="w-64 bg-white rounded-2xl p-8 shadow-2xl">
+          <h3 className="font-bold text-xl">About Us</h3>
+          <div className="divider text-xl"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            facilis totam accusantium laudantium aut? Dolorem minima vitae
+            tempora nam odio consequuntur ipsa, cupiditate in adipisci minus
+            fugit aliquid, nostrum quae!
+          </p>
+        </div>
+      </div>
+
+      <div className="py-16 text-center">
+        <p className="italic">
+          The ultimate aim of Karate lies not in victory nor defeat, but in the
+          perfection of the character of its participants.” –{" "}
+          <b>Gichin Funakoshi</b>
+        </p>
+      </div>
     </>
   );
 }
