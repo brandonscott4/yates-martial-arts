@@ -1,10 +1,9 @@
-import karateWoman from "../../public/karate-woman.jpg";
 function Home() {
   return (
     <>
       <div className="relative">
         <img
-          src={karateWoman}
+          src="../../public/karate-woman.jpg"
           alt="My Image"
           className=" h-96 lg:h-[600px] w-full object-cover grayscale"
         />
@@ -20,7 +19,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="w-screen flex flex-wrap bg-gray-200 gap-24 justify-center py-20">
+      <div className="flex flex-wrap bg-gray-200 gap-24 justify-center py-20">
         <div className="w-64 bg-white rounded-2xl p-8 shadow-2xl">
           <h3 className="font-bold text-xl">About Us</h3>
           <div className="divider"></div>
