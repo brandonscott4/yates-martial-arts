@@ -2,7 +2,7 @@ function Instructors() {
   return (
     <>
       <div className="flex flex-col items-center">
-        <div className="bg-gray-200 py-20 w-full flex justify-center">
+        <div className=" py-20 w-full flex justify-center bg-sky-100">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
               <img src="/portrait.jpeg" alt="Album" />
@@ -32,7 +32,7 @@ function Instructors() {
           </div>
         </div>
 
-        <div className="bg-gray-200 py-20 w-full flex justify-center">
+        <div className=" py-20 w-full flex justify-center bg-sky-100">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
               <img src="/portrait.jpeg" alt="Album" />

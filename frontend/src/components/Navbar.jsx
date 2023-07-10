@@ -24,11 +24,15 @@ function Navbar() {
                 <NavLink to="/instructors">Instructors</NavLink>
               </li>
               <li>
-                <NavLink to="/membership">Membership</NavLink>
+                <NavLink to="/membership">Classes & Prices</NavLink>
               </li>
             </ul>
           </div>
-          <img src="/logo.jpg" alt="logo" className=" h-24 w-24" />
+          <img
+            src="/logo.jpg"
+            alt="logo"
+            className=" h-16 w-16 lg:h-24 lg:w-24 "
+          />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -42,7 +46,7 @@ function Navbar() {
               <NavLink to="/instructors">Instructors</NavLink>
             </li>
             <li>
-              <NavLink to="/membership">Membership</NavLink>
+              <NavLink to="/membership">Classes & Prices</NavLink>
             </li>
           </ul>
         </div>

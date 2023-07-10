@@ -16,6 +16,10 @@ function Home() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Accusantium nostrum, rem.
           </p>
+
+          <button className="btn bg-sky-300 w-36 mt-4 hover:bg-sky-400 border-0">
+            Join Us
+          </button>
         </div>
       </div>
 
