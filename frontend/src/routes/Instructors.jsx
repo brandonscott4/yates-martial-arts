@@ -1,11 +1,11 @@
 function Instructors() {
   return (
     <>
-      <div className="flex flex-col gap-10 items-center">
+      <div className="flex flex-col items-center">
         <div className="bg-gray-200 py-20 w-full flex justify-center">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
-              <img src="../../public/portrait.jpeg" alt="Album" />
+              <img src="/portrait.jpeg" alt="Album" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Luke Yates</h2>
@@ -20,7 +20,7 @@ function Instructors() {
         <div className="py-20 w-full flex justify-center">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3 border">
             <figure>
-              <img src="../../public/portrait.jpeg" alt="Album" />
+              <img src="/portrait.jpeg" alt="Album" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Luke Yates</h2>
@@ -35,7 +35,7 @@ function Instructors() {
         <div className="bg-gray-200 py-20 w-full flex justify-center">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
-              <img src="../../public/portrait.jpeg" alt="Album" />
+              <img src="/portrait.jpeg" alt="Album" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Luke Yates</h2>

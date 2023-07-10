@@ -3,13 +3,13 @@ function Home() {
     <>
       <div className="relative">
         <img
-          src="../../public/karate-woman.jpg"
+          src="/karate-woman.jpg"
           alt="My Image"
           className=" h-96 lg:h-[600px] w-full object-cover grayscale"
         />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           <p className="text-white text-2xl">WELCOME TO</p>
-          <p className="text-white font-bold text-4xl sm:text-6xl mt-4">
+          <p className="text-white font-bold text-4xl sm:text-6xl mt-4 underline decoration-4 underline-offset-4 decoration-sky-300">
             Yates Martial Arts
           </p>
           <p className="text-white text-s sm:text-lg text-center mt-8">

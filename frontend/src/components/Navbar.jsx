@@ -28,7 +28,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">YMA</a>
+          <img src="/logo.jpg" alt="logo" className=" h-24 w-24" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
