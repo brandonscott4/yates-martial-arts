@@ -14,7 +14,7 @@ function Instructors() {
               <h2 className="card-title">Luke Yates</h2>
               <p>1st Dan</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Learn More</button>
+                <button className="btn border border-black">Learn More</button>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ function Instructors() {
               <h2 className="card-title">Luke Yates</h2>
               <p>1st Dan</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Learn More</button>
+                <button className="btn border border-black">Learn More</button>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ function Instructors() {
               <h2 className="card-title">Luke Yates</h2>
               <p>1st Dan</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Learn More</button>
+                <button className="btn border border-black">Learn More</button>
               </div>
             </div>
           </div>

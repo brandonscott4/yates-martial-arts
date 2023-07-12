@@ -51,7 +51,9 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Join</a>
+          <button className="btn bg-sky-300 w-24 mt-4 hover:bg-sky-400 border-0">
+            Join
+          </button>
         </div>
       </div>
     </>
