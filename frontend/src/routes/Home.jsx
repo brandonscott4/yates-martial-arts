@@ -18,7 +18,7 @@ function Home() {
           </p>
 
           <button className="btn bg-sky-300 w-36 mt-4 hover:bg-sky-400 border-0">
-            Join Us
+            Get Started
           </button>
         </div>
       </div>
