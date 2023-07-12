@@ -2,7 +2,7 @@ function ClassesPrices() {
   return (
     <>
       <div className=" py-20 w-full bg-sky-100">
-        <h2 className="font-semibold text-3xl mb-10 underline text-center">
+        <h2 className="font-semibold text-3xl mb-12 underline text-center">
           Dartford Dojo
         </h2>
         <div className="flex flex-col justify-center items-center">
@@ -29,15 +29,15 @@ function ClassesPrices() {
 
       <div className="py-20 w-full flex gap-24 justify-center items-center">
         <div className="w-1/6 text-center">
-          <h3 className="font-semibold text-lg">Kids classes (5-17)</h3>
+          <h3 className="font-semibold text-xl">Kids classes (5-17)</h3>
           <div className="divider"></div>
-          <p>£13 per hour</p>
+          <p className="text-lg">£13 per hour</p>
         </div>
 
         <div className="w-1/6 text-center">
-          <h3 className="font-semibold text-lg">Adults classes (18+)</h3>
+          <h3 className="font-semibold text-xl">Adults classes (18+)</h3>
           <div className="divider"></div>
-          <p>£18 per hour</p>
+          <p className="text-lg">£18 per hour</p>
         </div>
       </div>
     </>

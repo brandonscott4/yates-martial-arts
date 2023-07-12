@@ -51,9 +51,11 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn bg-sky-300 w-28 mt-4 hover:bg-sky-400 border-0">
-            Join Now
-          </button>
+          <NavLink to="/contact">
+            <button className="btn bg-sky-300 w-28 mt-4 hover:bg-sky-400 border-0">
+              Join Us
+            </button>
+          </NavLink>
         </div>
       </div>
     </>
