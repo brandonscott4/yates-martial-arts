@@ -9,10 +9,10 @@ function Home() {
         />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           <p className="text-white text-2xl">WELCOME TO</p>
-          <p className="text-white font-bold text-4xl sm:text-6xl mt-4 underline decoration-4 underline-offset-4 decoration-sky-300">
+          <p className="text-white font-bold text-4xl sm:text-6xl mt-3 underline decoration-4 underline-offset-4 decoration-sky-300">
             Yates Martial Arts
           </p>
-          <p className="text-white text-s sm:text-lg text-center mt-8">
+          <p className="text-white text-s sm:text-lg text-center mt-9">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Accusantium nostrum, rem.
           </p>
@@ -23,7 +23,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-wrap bg-gray-200 gap-24 justify-center py-20">
+      <div className="flex flex-wrap bg-sky-100 gap-24 justify-center py-20">
         <div className="w-64 bg-white rounded-2xl p-8 shadow-2xl">
           <h3 className="font-bold text-xl">About Us</h3>
           <div className="divider"></div>

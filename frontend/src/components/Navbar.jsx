@@ -24,7 +24,7 @@ function Navbar() {
                 <NavLink to="/instructors">Instructors</NavLink>
               </li>
               <li>
-                <NavLink to="/membership">Classes & Prices</NavLink>
+                <NavLink to="/classes-prices">Classes & Prices</NavLink>
               </li>
             </ul>
           </div>
@@ -46,7 +46,7 @@ function Navbar() {
               <NavLink to="/instructors">Instructors</NavLink>
             </li>
             <li>
-              <NavLink to="/membership">Classes & Prices</NavLink>
+              <NavLink to="/classes-prices">Classes & Prices</NavLink>
             </li>
           </ul>
         </div>

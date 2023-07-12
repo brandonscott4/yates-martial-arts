@@ -6,6 +6,7 @@ import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Home from "./routes/Home";
 import Instructors from "./routes/Instructors";
+import ClassesPrices from "./routes/ClassesPrices";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "instructors",
         element: <Instructors />,
+      },
+      {
+        path: "classes-prices",
+        element: <ClassesPrices />,
       },
     ],
   },
