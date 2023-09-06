@@ -1,32 +1,53 @@
 import { NavLink } from "react-router-dom";
 import { IconMenu2 } from "@tabler/icons-react";
+import { useState } from "react";
 
 function Navbar() {
+  const [isHamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
+
+  const toggleHamburgerMenu = () => {
+    setHamburgerMenuOpen(!isHamburgerMenuOpen);
+  };
+
   return (
     <>
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label
+              tabIndex={0}
+              className="btn btn-ghost lg:hidden"
+              onClick={toggleHamburgerMenu}
+            >
               <IconMenu2 />
             </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <NavLink to="/">Home</NavLink>
-              </li>
-              <li>
-                <NavLink to="/about">About Us</NavLink>
-              </li>
-              <li>
-                <NavLink to="/instructors">Instructors</NavLink>
-              </li>
-              <li>
-                <NavLink to="/classes-prices">Classes & Prices</NavLink>
-              </li>
-            </ul>
+            {isHamburgerMenuOpen && (
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <NavLink to="/" onClick={toggleHamburgerMenu}>
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about" onClick={toggleHamburgerMenu}>
+                    About Us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/instructors" onClick={toggleHamburgerMenu}>
+                    Instructors
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/classes-prices" onClick={toggleHamburgerMenu}>
+                    Classes & Prices
+                  </NavLink>
+                </li>
+              </ul>
+            )}
           </div>
           <img
             src="/logo.jpg"
