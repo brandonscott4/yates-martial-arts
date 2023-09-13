@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="navbar">
+      <div className="navbar sticky top-0 z-[1] bg-white shadow-md">
         <div className="navbar-start">
           <div className="dropdown">
             <label
