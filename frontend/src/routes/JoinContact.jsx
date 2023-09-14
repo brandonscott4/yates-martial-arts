@@ -71,32 +71,40 @@ function JoinContact() {
   }, [formError]);
 
   const handleSubmit = (e) => {
+    let errorFlag = false;
+
     if (name === "") {
       setFormError((prevFormError) => ({
         ...prevFormError,
         name: true,
       }));
+      errorFlag = true;
     }
     if (email === "") {
       setFormError((prevFormError) => ({
         ...prevFormError,
         email: true,
       }));
+      errorFlag = true;
     }
     if (mobileNo === "") {
       setFormError((prevFormError) => ({
         ...prevFormError,
         mobileNo: true,
       }));
+      errorFlag = true;
     }
     if (message === "") {
       setFormError((prevFormError) => ({
         ...prevFormError,
         message: true,
       }));
+      errorFlag = true;
     }
 
-    e.preventDefault();
+    if (errorFlag) {
+      e.preventDefault();
+    }
   };
 
   return (
@@ -108,6 +116,8 @@ function JoinContact() {
         <form
           className="bg-white w-4/5 sm:w-3/4 lg:w-1/2 2xl:w-2/6 mx-8 px-8 sm:px-20 py-12 shadow-xl rounded-2xl"
           onSubmit={handleSubmit}
+          action="https://formsubmit.co/df15969adab72323ec498058a5895f32"
+          method="POST"
         >
           <label
             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -120,6 +130,7 @@ function JoinContact() {
               formError.name ? "border-red-500" : ""
             }`}
             id="name"
+            name="name"
             type="text"
             placeholder="Jane Doe"
             value={name}
@@ -137,6 +148,7 @@ function JoinContact() {
               formError.email ? "border-red-500" : ""
             }`}
             id="email"
+            name="email"
             type="email"
             placeholder="janedoe@gmail.com"
             value={email}
@@ -154,6 +166,7 @@ function JoinContact() {
               formError.mobileNo ? "border-red-500" : ""
             }`}
             id="mobileNo"
+            name="mobileNo"
             type="tel"
             placeholder="07123456789"
             value={mobileNo}
@@ -168,6 +181,7 @@ function JoinContact() {
           </label>
           <textarea
             id="message"
+            name="message"
             value={message}
             onChange={handleChange}
             className={`resize-y shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none h-40 ${
@@ -181,9 +195,14 @@ function JoinContact() {
           >
             {formError.errorMsg.msg}
           </p>
-          <button className="btn btn-neutral btn-xs sm:btn-sm md:btn-md mt-8">
+          <button
+            type="submit"
+            className="btn btn-neutral btn-xs sm:btn-sm md:btn-md mt-8"
+          >
             Submit
           </button>
+
+          <input type="hidden" name="_subject" value="YMA Submission"></input>
         </form>
       </div>
 
