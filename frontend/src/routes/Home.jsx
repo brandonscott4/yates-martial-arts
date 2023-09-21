@@ -7,7 +7,7 @@ function Home() {
         <img
           src="/karate-woman.jpg"
           alt="My Image"
-          className=" h-96 lg:h-[600px] w-full object-cover grayscale"
+          className="h-[calc(100vh-110px)] w-full object-cover grayscale"
         />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           <p className="text-white text-2xl">WELCOME TO</p>
@@ -27,42 +27,67 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-wrap bg-sky-100 gap-24 justify-center py-20">
-        <div className="w-64 bg-white rounded-2xl p-8 shadow-2xl">
-          <h3 className="font-bold text-xl">About Us</h3>
-          <div className="divider"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
-            facilis totam accusantium laudantium aut? Dolorem minima vitae
-            tempora nam odio consequuntur ipsa, cupiditate in adipisci minus
-            fugit aliquid, nostrum quae!
+      <div className="flex items-center justify-center py-20 bg-white text-md md:text-lg font-semibold">
+        <div className="p-4 text-left md:text-center">
+          <p className="mb-8">
+            Yates Martial Arts was established in 2023 by Luke Yates alongside
+            his family for whom karate is a way of life.
           </p>
-        </div>
-
-        <div className=" w-64 bg-white rounded-2xl p-8 shadow-2xl">
-          <h3 className="font-bold text-xl">About Us</h3>
-          <div className="divider"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
-            facilis totam accusantium laudantium aut? Dolorem minima vitae
-            tempora nam odio consequuntur ipsa, cupiditate in adipisci minus
-            fugit aliquid, nostrum quae!
-          </p>
-        </div>
-
-        <div className="w-64 bg-white rounded-2xl p-8 shadow-2xl">
-          <h3 className="font-bold text-xl">About Us</h3>
-          <div className="divider text-xl"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
-            facilis totam accusantium laudantium aut? Dolorem minima vitae
-            tempora nam odio consequuntur ipsa, cupiditate in adipisci minus
-            fugit aliquid, nostrum quae!
+            The Yates family has over 50 years of experience in martial arts
+            between them as well as all having represented England in karate;
+            claiming multiple World and European titles in both kata and kumite
+            disciplines.
           </p>
         </div>
       </div>
 
-      <div className="py-16 text-center">
+      <div className=" flex bg-sky-100 py-20 justify-center items-center ">
+        <div className="flex flex-wrap gap-24 w-4/5 lg:w-2/3 flex-col lg:flex-row">
+          <div className="flex-1 bg-white rounded-2xl p-8 shadow-md border">
+            <h3 className="font-bold text-xl">Karate </h3>
+            <div className="divider"></div>
+            <p>
+              Karate is a defensive art, hence the Japanese symbol on our logo
+              meaning to protect. Our unique syllabus has been devised from
+              studying various styles of karate, predominantly Shotokan as well
+              as Ishinryu, Kokoshin, Wado Ryu and Shito Ryu; utilising only the
+              most effective techniques for self defence and competition. We
+              practise both traditional and sport karate so whether you want to
+              learn self defence, get fitter or compete we can help you achieve
+              your goals.
+            </p>
+          </div>
+
+          <div className=" flex-1 bg-white rounded-2xl p-8 shadow-md border">
+            <h3 className="font-bold text-xl">Kickboxing</h3>
+            <div className="divider"></div>
+            <p>
+              Kickboxing combines the art of karate-do and boxing. As well as
+              having black belts in kickboxing all the Yates’ have represented
+              England in karate, claiming multiple World and European titles in
+              both kata and kumite disciplines. Yates Martial Arts’ practice
+              both light contact and semi contact (point scoring) kickboxing.
+              Our sessions include pad work, fitness, light contact and point
+              scoring sparring so if you want to get fitter or learn self
+              defence we can help you achieve your goals.
+            </p>
+          </div>
+
+          <div className="flex-2 bg-white rounded-2xl p-8 shadow-md border">
+            <h3 className="font-bold text-xl">Little Ninjas</h3>
+            <div className="divider text-xl"></div>
+            <p>
+              Our fun and entertaining little Ninjas sessions are designed for
+              children 3-5yrs to provide them with a perfect introduction to
+              karate and kickboxing. We teach both physical skills and
+              discipline whilst offering rewards through our badge system.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white py-16 text-center">
         <p className="italic">
           The ultimate aim of Karate lies not in victory nor defeat, but in the
           perfection of the character of its participants.” –{" "}
