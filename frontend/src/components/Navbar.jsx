@@ -32,11 +32,6 @@ function Navbar() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about" onClick={toggleHamburgerMenu}>
-                    About Us
-                  </NavLink>
-                </li>
-                <li>
                   <NavLink to="/instructors" onClick={toggleHamburgerMenu}>
                     Instructors
                   </NavLink>
@@ -59,9 +54,6 @@ function Navbar() {
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/about">About Us</NavLink>
             </li>
             <li>
               <NavLink to="/instructors">Instructors</NavLink>

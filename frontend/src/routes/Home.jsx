@@ -27,8 +27,8 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center py-20 bg-white text-md md:text-lg font-semibold">
-        <div className="p-4 text-left md:text-center">
+      <div className="flex items-center justify-center py-20 bg-white text-md md:text-xl font-semibold">
+        <div className="p-4 text-left md:text-center xl:w-2/3">
           <p className="mb-8">
             Yates Martial Arts was established in 2023 by Luke Yates alongside
             his family for whom karate is a way of life.
@@ -44,7 +44,7 @@ function Home() {
 
       <div className=" flex bg-sky-100 py-20 justify-center items-center ">
         <div className="flex flex-wrap gap-24 w-4/5 lg:w-2/3 flex-col lg:flex-row">
-          <div className="flex-1 bg-white rounded-2xl p-8 shadow-md border">
+          <div className="flex-1 bg-white rounded-2xl p-8 shadow-lg border">
             <h3 className="font-bold text-xl">Karate </h3>
             <div className="divider"></div>
             <p>
@@ -59,7 +59,7 @@ function Home() {
             </p>
           </div>
 
-          <div className=" flex-1 bg-white rounded-2xl p-8 shadow-md border">
+          <div className=" flex-1 bg-white rounded-2xl p-8 shadow-lg border">
             <h3 className="font-bold text-xl">Kickboxing</h3>
             <div className="divider"></div>
             <p>
@@ -74,7 +74,7 @@ function Home() {
             </p>
           </div>
 
-          <div className="flex-2 bg-white rounded-2xl p-8 shadow-md border">
+          <div className="flex-2 bg-white rounded-2xl p-8 shadow-lg border">
             <h3 className="font-bold text-xl">Little Ninjas</h3>
             <div className="divider text-xl"></div>
             <p>

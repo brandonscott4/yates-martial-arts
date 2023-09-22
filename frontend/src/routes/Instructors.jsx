@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+Link;
 function Instructors() {
   return (
     <>
@@ -12,9 +15,11 @@ function Instructors() {
               <h2 className="card-title">Luke Yates</h2>
               <p>1st Dan</p>
               <div className="card-actions justify-end">
-                <button className="btn border border-black hover:border-black">
-                  Learn More
-                </button>
+                <Link to="/instructor/1">
+                  <button className="btn border border-black hover:border-black">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -26,12 +31,14 @@ function Instructors() {
               <img src="/portrait.jpeg" alt="Album" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Luke Yates</h2>
+              <h2 className="card-title">Vicky Yates</h2>
               <p>1st Dan</p>
               <div className="card-actions justify-end">
-                <button className="btn border border-black hover:border-black">
-                  Learn More
-                </button>
+                <Link to="/instructor/2">
+                  <button className="btn border border-black hover:border-black">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -43,12 +50,14 @@ function Instructors() {
               <img src="/portrait.jpeg" alt="Album" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Luke Yates</h2>
+              <h2 className="card-title">Lucy Yates</h2>
               <p>1st Dan</p>
               <div className="card-actions justify-end">
-                <button className="btn border border-black hover:border-black">
-                  Learn More
-                </button>
+                <Link to="/instructor/3">
+                  <button className="btn border border-black hover:border-black">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@ import Home from "./routes/Home";
 import Instructors from "./routes/Instructors";
 import ClassesPrices from "./routes/ClassesPrices";
 import JoinContact from "./routes/JoinContact";
+import Instructor from "./components/Instructor";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <JoinContact />,
+      },
+      {
+        path: "instructor/:key",
+        element: <Instructor />,
       },
     ],
   },
