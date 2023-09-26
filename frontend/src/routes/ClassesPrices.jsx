@@ -1,10 +1,14 @@
+import { Fade } from "react-awesome-reveal";
+
 function ClassesPrices() {
   return (
     <>
       <div className=" py-20 w-full bg-sky-100">
-        <h2 className="font-semibold text-3xl mb-12 text-center">
-          DARTFORD DOJO
-        </h2>
+        <Fade triggerOnce>
+          <h2 className="font-semibold text-3xl mb-12 text-center">
+            DARTFORD DOJO
+          </h2>
+        </Fade>
         <div className="flex flex-col justify-center items-center">
           <div className="flex flex-col xl:flex-row gap-10 mx-5 justify-center items-center xl:items-stretch w-full xl:w-2/3">
             <div className="relative overflow-hidden aspect-video w-4/5 xl:w-3/5">
@@ -18,17 +22,19 @@ function ClassesPrices() {
             </div>
             <div className="bg-white rounded-2xl w-4/5 xl:w-2/5 shadow-xl flex flex-col items-center justify-center">
               <div className="text-left p-10 text-lg font-medium md:text-xl">
-                <p>Random Sports Centre</p>
-                <p>Dartford</p>
-                <p>100 Street Road</p>
-                <p>DA1 8NG</p>
-                <div className="divider"></div>
-                <p className="mt-8">
-                  <b>Thursdays: </b>12:30pm - 1:30pm
-                </p>
-                <p className="mt-4">
-                  <b>Saturdays: </b>11:30pm - 12:30pm
-                </p>
+                <Fade triggerOnce>
+                  <p>Random Sports Centre</p>
+                  <p>Dartford</p>
+                  <p>100 Street Road</p>
+                  <p>DA1 8NG</p>
+                  <div className="divider"></div>
+                  <p className="mt-8">
+                    <b>Thursdays: </b>12:30pm - 1:30pm
+                  </p>
+                  <p className="mt-4">
+                    <b>Saturdays: </b>11:30pm - 12:30pm
+                  </p>
+                </Fade>
               </div>
             </div>
           </div>
@@ -37,15 +43,19 @@ function ClassesPrices() {
 
       <div className="py-20 w-full flex gap-24 justify-center items-center">
         <div className="w-1/6 text-center">
-          <h3 className="font-semibold text-xl">Kids classes (5-17)</h3>
-          <div className="divider"></div>
-          <p className="text-lg">£13 per hour</p>
+          <Fade triggerOnce>
+            <h3 className="font-semibold text-xl">Kids classes (5-17)</h3>
+            <div className="divider"></div>
+            <p className="text-lg">£13 per hour</p>
+          </Fade>
         </div>
 
         <div className="w-1/6 text-center">
-          <h3 className="font-semibold text-xl">Adults classes (18+)</h3>
-          <div className="divider"></div>
-          <p className="text-lg">£18 per hour</p>
+          <Fade triggerOnce>
+            <h3 className="font-semibold text-xl">Adults classes (18+)</h3>
+            <div className="divider"></div>
+            <p className="text-lg">£18 per hour</p>
+          </Fade>
         </div>
       </div>
     </>

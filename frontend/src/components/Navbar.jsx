@@ -44,11 +44,13 @@ function Navbar() {
               </ul>
             )}
           </div>
-          <img
-            src="/logo.jpg"
-            alt="logo"
-            className=" h-16 w-16 lg:h-24 lg:w-24 "
-          />
+          <NavLink to="/">
+            <img
+              src="/logo.jpg"
+              alt="logo"
+              className=" h-16 w-16 lg:h-24 lg:w-24 "
+            />
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 function Instructor() {
   const instructorDetails = [
@@ -120,10 +121,12 @@ function Instructor() {
         <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg">
           <div className="flex flex-col lg:flex-row justify-center items-center">
             <div className="lg:border-r-2 p-2 lg:p-6">
-              <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-                {selectedInstructor.fullname}
-              </h1>
-              <p className="text-md">{selectedInstructor.bio}</p>
+              <Fade triggerOnce>
+                <h1 className="text-3xl md:text-5xl font-semibold mb-4">
+                  {selectedInstructor.fullname}
+                </h1>
+                <p className="text-md">{selectedInstructor.bio}</p>
+              </Fade>
             </div>
             <img
               src={selectedInstructor.image}
@@ -135,34 +138,40 @@ function Instructor() {
 
         <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg flex flex-col lg:flex-row gap-8 justify-between">
           <div>
-            <h3 className="text-2xl font-medium">National Titles</h3>
-            <ul>
-              {selectedInstructor.national_titles.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+            <Fade triggerOnce>
+              <h3 className="text-2xl font-medium">National Titles</h3>
+              <ul>
+                {selectedInstructor.national_titles.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </Fade>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium">International Titles</h3>
-            <ul>
-              {selectedInstructor.international_titles.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+            <Fade triggerOnce>
+              <h3 className="text-2xl font-medium">International Titles</h3>
+              <ul>
+                {selectedInstructor.international_titles.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </Fade>
           </div>
         </div>
 
         <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg flex justify-between">
           <div>
-            <h3 className="text-2xl font-medium">
-              Achievements & Qualifications
-            </h3>
-            <ul>
-              {selectedInstructor.achievements.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+            <Fade triggerOnce>
+              <h3 className="text-2xl font-medium">
+                Achievements & Qualifications
+              </h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {selectedInstructor.achievements.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </Fade>
           </div>
         </div>
       </div>
