@@ -95,6 +95,26 @@ function Home() {
               </p>
             </Fade>
           </div>
+
+          <div className="flex-2 bg-white rounded-2xl p-8 shadow-lg border">
+            <Fade triggerOnce>
+              <h3 className="font-bold text-xl">Body Blitz</h3>
+              <div className="divider text-xl"></div>
+              <p>
+                Body Blitz is a group based fitness class designed for all
+                abilities and fitness levels. Body Blitz is targeted at
+                improving general fitness and weight loss with a focus on cardio
+                and strength training. A range of training methods such as
+                circuit training and high intensity interval training (HIIT) are
+                incorporated to create an engaging and varied fitness class.
+                Body Blitz provides different variations of all exercises to
+                ensure all members can exercise according to their fitness
+                level. Whether you are looking to keep fit, lose some weight,
+                get stronger, increase your cardio or improve your general
+                fitness, Body Blitz is the fitness class for you.
+              </p>
+            </Fade>
+          </div>
         </div>
       </div>
 

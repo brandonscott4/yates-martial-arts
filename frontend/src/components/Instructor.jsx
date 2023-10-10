@@ -49,10 +49,10 @@ function Instructor() {
         "Fully Insured",
         "Enhanced DBS Check",
         "Qualified Teacher",
-        "Qualified Child and Adolescent Counsellor",
         "Mindfulness Qualification",
-        "Specialist Training in Special Educational Needs",
+        "Qualified Child and Adolescent Counsellor",
         "British Sign Language Qualification",
+        "Specialist Training in Special Educational Needs",
       ],
       national_titles: [
         "Isshinryu Kata Champion 1997, 1998",
@@ -89,9 +89,9 @@ function Instructor() {
         "Karate 1st Dan",
         "Kickboxing 1st Dan",
         "England International",
-        "Emergency First Aid Qualification",
         "Fully Insured",
         "Enhanced DBS Check",
+        "Emergency First Aid Qualification",
       ],
       national_titles: [
         "GB Open Inclusive Kata Gold Medalist, 2022",
@@ -136,10 +136,25 @@ function Instructor() {
           </div>
         </div>
 
+        <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg flex justify-between">
+          <div>
+            <Fade triggerOnce>
+              <h3 className="text-2xl font-medium mb-1">
+                Achievements & Qualifications
+              </h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {selectedInstructor.achievements.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </Fade>
+          </div>
+        </div>
+
         <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg flex flex-col lg:flex-row gap-8 justify-between">
           <div>
             <Fade triggerOnce>
-              <h3 className="text-2xl font-medium">National Titles</h3>
+              <h3 className="text-2xl font-medium mb-1 ">National Titles</h3>
               <ul>
                 {selectedInstructor.national_titles.map((item, index) => (
                   <li key={index}>{item}</li>
@@ -150,24 +165,11 @@ function Instructor() {
 
           <div>
             <Fade triggerOnce>
-              <h3 className="text-2xl font-medium">International Titles</h3>
+              <h3 className="text-2xl font-medium mb-1">
+                International Titles
+              </h3>
               <ul>
                 {selectedInstructor.international_titles.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </Fade>
-          </div>
-        </div>
-
-        <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg flex justify-between">
-          <div>
-            <Fade triggerOnce>
-              <h3 className="text-2xl font-medium">
-                Achievements & Qualifications
-              </h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                {selectedInstructor.achievements.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
               </ul>

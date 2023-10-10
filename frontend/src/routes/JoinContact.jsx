@@ -217,7 +217,7 @@ function JoinContact() {
               <b>Email: </b>yatesmartialarts@gmail.com
             </p>
             <p className="text-xl mt-3">
-              <b>Mobile: </b>07332993032
+              <b>Mobile: </b>07720263984
             </p>
           </Fade>
         </div>
