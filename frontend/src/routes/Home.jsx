@@ -5,17 +5,13 @@ function Home() {
   return (
     <>
       <div className="relative">
-        <img
-          src="/karate-woman.jpg"
-          alt="My Image"
-          className="h-[calc(100vh-110px)] w-full object-cover grayscale"
-        />
+        <div className="bg-[url('/karate-woman.jpg')] h-[calc(100vh-110px)] w-full grayscale bg-cover bg-center"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           <Fade cascade damping={0.4} triggerOnce>
             <p className="text-white text-2xl">WELCOME TO</p>
-            <p className="text-white font-bold text-4xl sm:text-6xl mt-3">
+            <h1 className="text-white font-bold text-4xl sm:text-6xl mt-3">
               Yates Martial Arts
-            </p>
+            </h1>
             <p className="text-white text-s sm:text-lg text-center mt-9">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Accusantium nostrum, rem.

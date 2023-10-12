@@ -130,7 +130,7 @@ function Instructor() {
             </div>
             <img
               src={selectedInstructor.image}
-              alt=""
+              alt="Headshot of instructor"
               className="rounded-full p-6"
             />
           </div>

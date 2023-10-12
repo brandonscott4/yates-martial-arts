@@ -47,7 +47,7 @@ function Navbar() {
           <NavLink to="/">
             <img
               src="/logo.jpg"
-              alt="logo"
+              alt="Yates martial arts logo"
               className=" h-16 w-16 lg:h-24 lg:w-24 "
             />
           </NavLink>
