@@ -113,18 +113,20 @@ function Instructor() {
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center bg-sky-100">
-        <Link to="/instructors">
-          <button className="btn border border-black hover:border-black mt-8">
-            Back
-          </button>
-        </Link>
         <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg">
           <div className="flex flex-col lg:flex-row justify-center items-center">
             <div className="lg:border-r-2 p-2 lg:p-6">
               <Fade triggerOnce>
-                <h1 className="text-3xl md:text-5xl font-semibold mb-4">
-                  {selectedInstructor.fullname}
-                </h1>
+                <div className="flex items-center justify-between mb-4">
+                  <h1 className="text-3xl md:text-5xl font-semibold">
+                    {selectedInstructor.fullname}
+                  </h1>
+                  <Link to="/instructors">
+                    <button className="btn border border-gray-400 hover:border-gray-400 w-16 md:w-24">
+                      Back
+                    </button>
+                  </Link>
+                </div>
                 <p className="text-md">{selectedInstructor.bio}</p>
               </Fade>
             </div>

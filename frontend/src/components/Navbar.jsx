@@ -67,7 +67,7 @@ function Navbar() {
         </div>
         <div className="navbar-end">
           <NavLink to="/contact">
-            <button className="btn bg-sky-300 w-28 hover:bg-sky-400 border-0">
+            <button className="btn bg-sky-300 w-28 hover:bg-sky-400 border-0 mr-4">
               Join Us
             </button>
           </NavLink>

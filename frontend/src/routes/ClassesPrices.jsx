@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 function ClassesPrices() {
   return (
     <>
-      <div className=" py-32 w-full bg-sky-100">
+      <div className=" py-20 w-full bg-sky-100">
         <Fade triggerOnce>
           <h2 className="font-semibold text-3xl mb-12 text-center">
             WILMINGTON
@@ -21,18 +21,62 @@ function ClassesPrices() {
               ></iframe>
             </div>
             <div className="bg-white rounded-2xl w-4/5 xl:w-2/5 shadow-xl flex flex-col items-center justify-center">
-              <div className="text-left p-10 text-lg font-medium md:text-xl">
+              <div className="p-10">
                 <Fade triggerOnce>
-                  <p>Wilmington Memorial Hall</p>
-                  <p>Wilmington</p>
-                  <p>96 High Rd</p>
-                  <p>DA2 7DW</p>
+                  <div className="text-left text-lg font-medium md:text-xl">
+                    <p>Wilmington Memorial Hall</p>
+                    <p>Wilmington</p>
+                    <p>96 High Rd</p>
+                    <p>DA2 7DW</p>
+                  </div>
                   <div className="divider"></div>
-                  <h4 className="font-bold">Thursdays:</h4>
-                  <p>12:30pm - 1:30pm (Karate)</p>
-                  <h4 className="font-bold mt-2">Saturday:</h4>
-                  <p>10:30am - 11:30am (Kickboxing)</p>
-                  <p>12:30pm - 1:30pm (Karate)</p>
+                  <div className="flex gap-10">
+                    <div>
+                      <h4 className="font-bold text-xl text-center">
+                        Wednesday
+                      </h4>
+                      <div className="flex flex-col items-center justify-center flex-wrap gap-6 mt-4">
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Karate</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal text-md">5:40pm-6:30pm</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Kickboxing</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal text-md">6:30pm-7:20pm</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h4 className="font-bold text-xl text-center">
+                        Saturday
+                      </h4>
+                      <div className="flex flex-col items-center justify-center flex-wrap gap-6 mt-4">
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Little Ninjas</p>
+                          <p className="font-medium text-sky-400">Ages 3-5</p>
+                          <p className="font-normal text-md">9:00am-9:30am</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Karate</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal text-md">9:30am-10:20am</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Kickboxing</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal text-md">10:20am-11:10am</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Body Blitz</p>
+                          <p className="font-medium text-sky-400">Age 12+</p>
+                          <p className="font-normal text-md">11:10am-12:00pm</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </Fade>
               </div>
             </div>

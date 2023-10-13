@@ -23,7 +23,7 @@ function Instructors() {
               <p>1st Dan</p>
               <div className="card-actions justify-end">
                 <Link to="/instructor/1">
-                  <button className="btn border border-black hover:border-black">
+                  <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
                   </button>
                 </Link>
@@ -45,7 +45,7 @@ function Instructors() {
               <p>1st Dan</p>
               <div className="card-actions justify-end">
                 <Link to="/instructor/2">
-                  <button className="btn border border-black hover:border-black">
+                  <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
                   </button>
                 </Link>
@@ -67,7 +67,7 @@ function Instructors() {
               <p>1st Dan</p>
               <div className="card-actions justify-end">
                 <Link to="/instructor/3">
-                  <button className="btn border border-black hover:border-black">
+                  <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
                   </button>
                 </Link>
