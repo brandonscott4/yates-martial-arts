@@ -112,7 +112,9 @@ function JoinContact() {
     <>
       <div className=" py-20 w-full bg-sky-100 flex flex-col justify-center items-center">
         <Fade triggerOnce>
-          <h1 className="text-4xl mb-12 font-semibold">GET IN CONTACT</h1>
+          <h1 className="font-bold text-3xl lg:text-4xl mb-12">
+            GET IN CONTACT
+          </h1>
         </Fade>
         <form
           className="bg-white w-4/5 sm:w-3/4 lg:w-1/2 2xl:w-2/6 mx-8 px-8 sm:px-20 py-12 shadow-xl rounded-2xl"
@@ -210,7 +212,7 @@ function JoinContact() {
       <div className=" py-20 w-full flex justify-center items-center">
         <div className="">
           <Fade triggerOnce>
-            <p className="font-semibold text-3xl text-center">OR</p>
+            <p className="font-bold text-3xl lg:text-4xl text-center">OR</p>
             <div className="divider"></div>
 
             <p className="text-xl">

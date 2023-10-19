@@ -112,7 +112,7 @@ function Instructor() {
 
   return (
     <>
-      <div className="w-full flex flex-col justify-center items-center bg-sky-100">
+      <div className="w-full flex flex-col justify-center items-center bg-sky-100 py-20">
         <div className="w-10/12 lg:w-1/2 bg-white p-6 my-8 rounded-xl shadow-lg">
           <div className="flex flex-col lg:flex-row justify-center items-center">
             <div className="lg:border-r-2 p-2 lg:p-6">

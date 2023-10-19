@@ -5,7 +5,7 @@ function ClassesPrices() {
     <>
       <div className=" py-20 w-full bg-sky-100">
         <Fade triggerOnce>
-          <h2 className="font-semibold text-3xl mb-12 text-center">
+          <h2 className="font-bold text-xl md:text-4xl mb-12 text-center">
             WILMINGTON
           </h2>
         </Fade>
@@ -30,12 +30,12 @@ function ClassesPrices() {
                     <p>DA2 7DW</p>
                   </div>
                   <div className="divider"></div>
-                  <div className="flex gap-10">
+                  <div className="flex gap-8 xl:gap-14">
                     <div>
                       <h4 className="font-bold text-xl text-center">
                         Wednesday
                       </h4>
-                      <div className="flex flex-col items-center justify-center flex-wrap gap-6 mt-4">
+                      <div className="flex flex-col items-center justify-center flex-wrap gap-3 mt-4">
                         <div className="text-center">
                           <p className="font-medium text-xl">Karate</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
@@ -53,7 +53,7 @@ function ClassesPrices() {
                       <h4 className="font-bold text-xl text-center">
                         Saturday
                       </h4>
-                      <div className="flex flex-col items-center justify-center flex-wrap gap-6 mt-4">
+                      <div className="flex flex-col items-center justify-center flex-wrap gap-3 mt-4">
                         <div className="text-center">
                           <p className="font-medium text-xl">Little Ninjas</p>
                           <p className="font-medium text-sky-400">Ages 3-5</p>
@@ -84,9 +84,11 @@ function ClassesPrices() {
         </div>
       </div>
 
-      <div className="py-32 w-full bg-white">
+      <div className="py-24 w-full bg-white">
         <div className="flex flex-col items-center justify-center mx-4">
-          <h3 className="font-semibold text-3xl mb-12 text-center">1-TO-1</h3>
+          <h3 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
+            1-TO-1
+          </h3>
           <p className="text-md xl:text-xl w-4/5 xl:w-2/3">
             Our instructors offer private 1-to-1 sessions to our students in our
             fully equipped home dojo providing individualised coaching focusing

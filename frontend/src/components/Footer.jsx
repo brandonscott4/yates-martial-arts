@@ -7,21 +7,40 @@ import {
 function Footer() {
   return (
     <>
-      <footer className="footer items-center p-5 bg-neutral text-neutral-content">
-        <div className="items-center grid-flow-col">
+      <footer className="flex flex-col gap-6 justify-between items-center p-10 bg-neutral text-neutral-content text-xs md:text-sm">
+        <aside>
           <p>Copyright © 2023 - Yates Martial Arts</p>
-        </div>
-        <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-          <a>
-            <IconBrandInstagram className="h-7 w-7" />
+        </aside>
+        <nav>
+          <div className="flex gap-4">
+            <a>
+              <IconBrandInstagram className="h-7 w-7" />
+            </a>
+            <a>
+              <IconBrandTiktok className="h-7 w-7" />
+            </a>
+            <a>
+              <IconBrandFacebook className="h-7 w-7" />
+            </a>
+          </div>
+        </nav>
+        <nav className="flex gap-4">
+          <a className="link link-hover">Privacy Policy</a>
+          <a
+            className="link link-hover"
+            href="/Yates Martial Arts and Fitness Health and Safety Policy.docx"
+            target="_blank"
+          >
+            Health & Safety Policy
           </a>
-          <a>
-            <IconBrandTiktok className="h-7 w-7" />
+          <a
+            className="link link-hover"
+            href="Yates Martial Arts and Fitness Safeguarding & Child Protection Policy and Procedures.docx"
+            target="_blank"
+          >
+            Safeguarding & Child Protection Policy
           </a>
-          <a>
-            <IconBrandFacebook className="h-7 w-7" />
-          </a>
-        </div>
+        </nav>
       </footer>
     </>
   );

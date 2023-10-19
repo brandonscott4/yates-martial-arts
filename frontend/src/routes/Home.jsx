@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { NavLink } from "react-router-dom";
+import { IconCircleArrowDown } from "@tabler/icons-react";
 
 function Home() {
   return (
@@ -22,6 +23,9 @@ function Home() {
                 Get Started
               </button>
             </NavLink>
+            <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+              <IconCircleArrowDown className="text-white w-8 h-8 animate-bounce" />
+            </div>
           </Fade>
         </div>
       </div>
