@@ -7,7 +7,7 @@ function Instructors() {
       <div className="flex flex-col items-center">
         <div className=" py-20 w-full flex flex-col justify-center items-center bg-sky-100">
           <Fade triggerOnce>
-            <h1 className="font-bold text-3xl lg:text-4xl mb-12">
+            <h1 className="font-bold text-2xl lg:text-4xl mb-12">
               MEET OUR INSTRUCTORS
             </h1>
           </Fade>

@@ -7,7 +7,7 @@ import {
 function Footer() {
   return (
     <>
-      <footer className="flex flex-col gap-6 justify-between items-center p-10 bg-neutral text-neutral-content text-xs md:text-sm">
+      <footer className="flex flex-col gap-6 justify-between items-center p-10 bg-neutral text-neutral-content text-sm">
         <aside>
           <p>Copyright © 2023 - Yates Martial Arts</p>
         </aside>

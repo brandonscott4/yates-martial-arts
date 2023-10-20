@@ -5,7 +5,7 @@ function ClassesPrices() {
     <>
       <div className=" py-20 w-full bg-sky-100">
         <Fade triggerOnce>
-          <h2 className="font-bold text-xl md:text-4xl mb-12 text-center">
+          <h2 className="font-bold text-3xl md:text-4xl mb-12 text-center">
             WILMINGTON
           </h2>
         </Fade>
@@ -80,6 +80,76 @@ function ClassesPrices() {
                 </Fade>
               </div>
             </div>
+          </div>
+        </div>
+
+        <Fade triggerOnce>
+          <h2 className="font-bold text-3xl md:text-4xl mb-12 text-center mt-24">
+            NEW ASH GREEN
+          </h2>
+        </Fade>
+        <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col xl:flex-row gap-10 mx-5 justify-center items-center xl:items-stretch w-full xl:w-2/3">
+            <div className="relative overflow-hidden aspect-video w-4/5 xl:w-3/5">
+              <iframe
+                title="Google maps location for New Ash Green classes"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9963.691090891474!2d0.3057632!3d51.3677164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b4eaa06b8f75%3A0x680f86dda08766ad!2sNew%20Ash%20Green%20Primary%20School!5e0!3m2!1sen!2suk!4v1697831233834!5m2!1sen!2suk"
+                className="absolute top-0 left-0 w-full h-full rounded-2xl"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="bg-white rounded-2xl w-4/5 xl:w-2/5 shadow-xl flex flex-col items-center justify-center">
+              <div className="p-10">
+                <Fade triggerOnce>
+                  <div className="text-left text-lg font-medium md:text-xl">
+                    <p>New Ash Green Primary School</p>
+                    <p>North Square, New Ash Green</p>
+                    <p>Longfield</p>
+                    <p>DA3 8JT</p>
+                  </div>
+                  <div className="divider"></div>
+                  <div className="gap-8 xl:gap-14">
+                    <div>
+                      <h4 className="font-bold text-xl text-center">Monday</h4>
+                      <div className="flex flex-col items-center justify-center flex-wrap gap-3 mt-4">
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Little Ninjas</p>
+                          <p className="font-medium text-sky-400">Ages 3-5</p>
+                          <p className="font-normal text-md">5:30pm-6:00pm</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Karate</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal text-md">6:00pm-6:50pm</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Kickboxing</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal text-md">6:50pm-7:40pm</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center items-center w-4/5 xl:w-2/3 shadow-xl bg-white rounded-2xl mt-8 p-10">
+            <p className="font-medium text-lg mb-4">
+              Please be aware Google Maps will take you to the back gate. Please
+              follow out instructions to get to the front gate.
+            </p>
+            <ul className="text-base">
+              <li>
+                <b>1. </b>Turn onto North Square Road and Park in North Square
+                car park
+              </li>
+              <li>
+                <b>2. </b>The front gate to the school is located to the left of
+                the doctors surgery.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
