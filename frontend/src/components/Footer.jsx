@@ -28,17 +28,24 @@ function Footer() {
           <a className="link link-hover">Privacy Policy</a>
           <a
             className="link link-hover"
-            href="/Yates Martial Arts and Fitness Health and Safety Policy.docx"
+            href="/Yates Martial Arts and Fitness Health and Safety Policy.pdf"
             target="_blank"
           >
             Health & Safety Policy
           </a>
           <a
             className="link link-hover"
-            href="Yates Martial Arts and Fitness Safeguarding & Child Protection Policy and Procedures.docx"
+            href="Yates Martial Arts and Fitness Safeguarding & Child Protection Policy and Procedures.pdf"
             target="_blank"
           >
             Safeguarding & Child Protection Policy
+          </a>
+          <a
+            className="link link-hover"
+            href="Yates Martial Arts and Fitness- General Data Protection Regulation Policy.pdf"
+            target="_blank"
+          >
+            GDPR Policy
           </a>
         </nav>
       </footer>

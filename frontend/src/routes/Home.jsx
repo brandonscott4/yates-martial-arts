@@ -13,13 +13,13 @@ function Home() {
             <h1 className="text-white font-bold text-4xl sm:text-6xl mt-3">
               Yates Martial Arts
             </h1>
-            <p className="text-white text-s sm:text-lg text-center mt-9">
+            <p className="text-white text-s sm:text-lg text-center mt-6">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Accusantium nostrum, rem.
             </p>
 
             <NavLink to="/contact">
-              <button className="btn bg-sky-300 w-36 mt-4 hover:bg-sky-400 border-0">
+              <button className="btn bg-sky-300 w-36 mt-12 hover:bg-sky-400 border-0">
                 Get Started
               </button>
             </NavLink>

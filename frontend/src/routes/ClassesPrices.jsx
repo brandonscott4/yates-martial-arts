@@ -170,24 +170,6 @@ function ClassesPrices() {
         </div>
       </div>
 
-      <div className="py-32 w-full flex gap-16 lg:gap-24 justify-center items-center bg-sky-100">
-        <div className="w-1/3 lg:w-1/6 text-center bg-white rounded-2xl p-8 shadow-lg border">
-          <Fade triggerOnce>
-            <h3 className="font-semibold text-xl">Kids classes (5-17)</h3>
-            <div className="divider"></div>
-            <p className="text-lg">£13 per hour</p>
-          </Fade>
-        </div>
-
-        <div className="w-1/3 lg:w-1/6 text-center bg-white rounded-2xl p-8 shadow-lg border">
-          <Fade triggerOnce>
-            <h3 className="font-semibold text-xl">Adults classes (18+)</h3>
-            <div className="divider"></div>
-            <p className="text-lg">£18 per hour</p>
-          </Fade>
-        </div>
-      </div>
-
       <div className="py-24 w-full bg-white flex flex-col justify-center items-center">
         <h3 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
           MEMBERSHIP FEES
@@ -374,16 +356,13 @@ function ClassesPrices() {
             </div>
           </div>
         </div>
-        <p className="text-4xl font-bold my-12">First lesson free!</p>
+        <p className="text-3xl font-bold my-12">First lesson free!</p>
         <div className="divider"></div>
-        <h3 className="font-bold text-3xl md:text-4xl text-center mt-12">
-          Private Lessons
-        </h3>
-        <h4 className="font-semibold text-2xl text-center mb-12">
-          Karate or kickboxing
-        </h4>
-
         <div className="flex flex-col items-center justify-center">
+          <h3 className="font-bold text-3xl md:text-4xl mt-12">
+            Private Lessons
+          </h3>
+          <h4 className="font-semibold text-2xl mb-8">Karate or kickboxing</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
             <div className="relative">
               <div className="absolute bg-blue-300 w-48 h-32 rounded-xl top-2 left-2"></div>

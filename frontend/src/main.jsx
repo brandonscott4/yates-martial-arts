@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         element: <JoinContact />,
       },
       {
-        path: "instructor/:key",
+        path: "instructor/:name",
         element: <Instructor />,
       },
     ],

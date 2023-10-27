@@ -20,9 +20,9 @@ function Instructors() {
             </figure>
             <div className="card-body">
               <h3 className="card-title">Luke Yates</h3>
-              <p>1st Dan</p>
+              <p>Sensei</p>
               <div className="card-actions justify-end">
-                <Link to="/instructor/1">
+                <Link to="/instructor/luke-yates">
                   <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
                   </button>
@@ -42,9 +42,9 @@ function Instructors() {
             </figure>
             <div className="card-body">
               <h3 className="card-title">Vicky Yates</h3>
-              <p>1st Dan</p>
+              <p>Sensei</p>
               <div className="card-actions justify-end">
-                <Link to="/instructor/2">
+                <Link to="/instructor/vicky-yates">
                   <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
                   </button>
@@ -64,9 +64,9 @@ function Instructors() {
             </figure>
             <div className="card-body">
               <h3 className="card-title">Lucy Yates</h3>
-              <p>1st Dan</p>
+              <p>Sensei</p>
               <div className="card-actions justify-end">
-                <Link to="/instructor/3">
+                <Link to="/instructor/lucy-yates">
                   <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
                   </button>

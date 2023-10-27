@@ -6,12 +6,14 @@ function JoinContact() {
   const [email, setEmail] = useState("");
   const [mobileNo, setMobileNo] = useState("");
   const [message, setMessage] = useState("");
+  const [consent, setConsent] = useState(false);
 
   const [formError, setFormError] = useState({
     name: false,
     email: false,
     mobileNo: false,
     message: false,
+    consent: false,
     errorMsg: {
       error: false,
       msg: "",
@@ -27,8 +29,10 @@ function JoinContact() {
       setEmail(value);
     } else if (id === "mobileNo") {
       setMobileNo(value);
-    } else {
+    } else if (id === "message") {
       setMessage(value);
+    } else {
+      setConsent(!consent);
     }
 
     setFormError((prevFormError) => ({
@@ -43,7 +47,8 @@ function JoinContact() {
         !formError.name &&
         !formError.email &&
         !formError.mobileNo &&
-        !formError.message
+        !formError.message &&
+        !formError.consent
       ) {
         setFormError((prevFormError) => ({
           ...prevFormError,
@@ -58,7 +63,8 @@ function JoinContact() {
         formError.name ||
         formError.email ||
         formError.mobileNo ||
-        formError.message
+        formError.message ||
+        formError.consent
       ) {
         setFormError((prevFormError) => ({
           ...prevFormError,
@@ -103,6 +109,14 @@ function JoinContact() {
       errorFlag = true;
     }
 
+    if (consent === false) {
+      setFormError((prevFormError) => ({
+        ...prevFormError,
+        consent: true,
+      }));
+      errorFlag = true;
+    }
+
     if (errorFlag) {
       e.preventDefault();
     }
@@ -117,7 +131,7 @@ function JoinContact() {
           </h1>
         </Fade>
         <form
-          className="bg-white w-4/5 sm:w-3/4 lg:w-1/2 2xl:w-2/6 mx-8 px-8 sm:px-20 py-12 shadow-xl rounded-2xl"
+          className="bg-white w-4/5 sm:w-3/4 lg:w-1/2 2xl:w-2/6 mx-8 px-8 sm:px-20 py-10 shadow-xl rounded-2xl"
           onSubmit={handleSubmit}
           action="https://formsubmit.co/df15969adab72323ec498058a5895f32"
           method="POST"
@@ -191,6 +205,22 @@ function JoinContact() {
               formError.message ? "border-red-500" : ""
             } `}
           ></textarea>
+
+          <div className="flex gap-4 mt-6 items-center">
+            <input
+              id="consent"
+              type="checkbox"
+              value={consent}
+              onChange={handleChange}
+              className={`h-7 w-7 checkbox ${
+                formError.consent ? "checkbox-error" : ""
+              } `}
+            />
+            <p className="text-sm">
+              I consent to my data being processed by Yates Martial Arts and
+              Fitness using formsubmit.co
+            </p>
+          </div>
           <p
             className={`text-red-500 font-semibold mt-3${
               formError.errorMsg.error ? "" : "hidden"
@@ -200,7 +230,7 @@ function JoinContact() {
           </p>
           <button
             type="submit"
-            className="btn btn-neutral btn-xs sm:btn-sm md:btn-md mt-8"
+            className="btn btn-neutral btn-sm md:btn-md mt-8"
           >
             Submit
           </button>

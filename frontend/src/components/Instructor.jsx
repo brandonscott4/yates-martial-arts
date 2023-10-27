@@ -2,8 +2,8 @@ import { Link, useParams } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
 function Instructor() {
-  const instructorDetails = [
-    {
+  const instructorDetails = {
+    "luke-yates": {
       id: 1,
       fullname: "Sensei Luke Yates",
       image: "/portrait.jpeg",
@@ -36,7 +36,7 @@ function Instructor() {
         "Senior Individual Kumite Bronze Medalist, WUKF World Championships, Dundee 2023",
       ],
     },
-    {
+    "vicky-yates": {
       id: 2,
       fullname: "Sensei Vicky Yates",
       image: "/portrait.jpeg",
@@ -80,7 +80,7 @@ function Instructor() {
         "Individual Kumite Bronze Medalist, WUKF World Championships, Dundee 2023",
       ],
     },
-    {
+    "lucy-yates": {
       id: 3,
       fullname: "Sensei Lucy Yates",
       image: "/portrait.jpeg",
@@ -105,10 +105,10 @@ function Instructor() {
         "Inclusive Combat Gold Medalist, WUKF European Championships, Florence 2023",
       ],
     },
-  ];
+  };
 
-  const { key } = useParams();
-  const selectedInstructor = instructorDetails[+key - 1];
+  const { name } = useParams();
+  const selectedInstructor = instructorDetails[name];
 
   return (
     <>
