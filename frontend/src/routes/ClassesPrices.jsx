@@ -39,12 +39,12 @@ function ClassesPrices() {
                         <div className="text-center">
                           <p className="font-medium text-xl">Karate</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
-                          <p className="font-normal text-md">5:40pm-6:30pm</p>
+                          <p className="font-normal">5:40pm-6:30pm</p>
                         </div>
                         <div className="text-center">
                           <p className="font-medium text-xl">Kickboxing</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
-                          <p className="font-normal text-md">6:30pm-7:20pm</p>
+                          <p className="font-normal">6:30pm-7:20pm</p>
                         </div>
                       </div>
                     </div>
@@ -57,22 +57,22 @@ function ClassesPrices() {
                         <div className="text-center">
                           <p className="font-medium text-xl">Little Ninjas</p>
                           <p className="font-medium text-sky-400">Ages 3-5</p>
-                          <p className="font-normal text-md">9:00am-9:30am</p>
+                          <p className="font-normal">9:00am-9:30am</p>
                         </div>
                         <div className="text-center">
                           <p className="font-medium text-xl">Karate</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
-                          <p className="font-normal text-md">9:30am-10:20am</p>
+                          <p className="font-normal">9:30am-10:20am</p>
                         </div>
                         <div className="text-center">
                           <p className="font-medium text-xl">Kickboxing</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
-                          <p className="font-normal text-md">10:20am-11:10am</p>
+                          <p className="font-normal">10:20am-11:10am</p>
                         </div>
                         <div className="text-center">
                           <p className="font-medium text-xl">Body Blitz</p>
                           <p className="font-medium text-sky-400">Age 12+</p>
-                          <p className="font-normal text-md">11:10am-12:00pm</p>
+                          <p className="font-normal">11:10am-12:00pm</p>
                         </div>
                       </div>
                     </div>
@@ -116,17 +116,17 @@ function ClassesPrices() {
                         <div className="text-center">
                           <p className="font-medium text-xl">Little Ninjas</p>
                           <p className="font-medium text-sky-400">Ages 3-5</p>
-                          <p className="font-normal text-md">5:30pm-6:00pm</p>
+                          <p className="font-normal">5:30pm-6:00pm</p>
                         </div>
                         <div className="text-center">
                           <p className="font-medium text-xl">Karate</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
-                          <p className="font-normal text-md">6:00pm-6:50pm</p>
+                          <p className="font-normal">6:00pm-6:50pm</p>
                         </div>
                         <div className="text-center">
                           <p className="font-medium text-xl">Kickboxing</p>
                           <p className="font-medium text-sky-400">Age 6+</p>
-                          <p className="font-normal text-md">6:50pm-7:40pm</p>
+                          <p className="font-normal">6:50pm-7:40pm</p>
                         </div>
                       </div>
                     </div>
@@ -152,21 +152,23 @@ function ClassesPrices() {
             </ul>
           </div>
         </div>
-      </div>
-
-      <div className="py-24 w-full bg-white">
-        <div className="flex flex-col items-center justify-center mx-4">
-          <h3 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
-            1-TO-1
-          </h3>
-          <p className="text-md xl:text-xl w-4/5 xl:w-2/3">
-            Our instructors offer private 1-to-1 sessions to our students in our
-            fully equipped home dojo providing individualised coaching focusing
-            on specific areas of karate such as: kata, kumite, kihon, grading
-            work, competition training as well as strength and fitness training.
-            Private lessons are an excellent opportunity to accelerate progress
-            from tailored feedback in a 1-to-1 environment.
-          </p>
+        <div className="mt-24 pb-20 w-full">
+          <div className="flex flex-col items-center justify-center mx-4">
+            <h3 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
+              1-TO-1
+            </h3>
+            <div className="flex items-center justify-center w-11/12 xl:w-2/3 shadow-xl bg-white rounded-2xl p-14">
+              <p className="text-base md:text-lg">
+                Our instructors offer private 1-to-1 sessions to our students in
+                our fully equipped home dojo providing individualised coaching
+                focusing on specific areas of karate such as: kata, kumite,
+                kihon, grading work, competition training as well as strength
+                and fitness training. Private lessons are an excellent
+                opportunity to accelerate progress from tailored feedback in a
+                1-to-1 environment.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

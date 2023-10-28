@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="relative">
-        <div className="bg-[url('/karate-woman.jpg')] h-[calc(100vh-110px)] w-full grayscale bg-cover bg-center"></div>
+        <div className="bg-[url('assets/karate-woman.jpg')] h-[calc(100vh-110px)] w-full grayscale bg-cover bg-center"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           <Fade cascade damping={0.4} triggerOnce>
             <p className="text-white text-2xl">WELCOME TO</p>
@@ -30,7 +30,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center py-32 bg-white text-md md:text-xl font-semibold">
+      <div className="flex items-center justify-center py-32 bg-white text-xl font-semibold">
         <div className="px-4 text-left md:text-center xl:w-2/3">
           <Fade triggerOnce cascade damping={0.2}>
             <p className="mb-8">

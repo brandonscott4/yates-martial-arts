@@ -218,7 +218,11 @@ function JoinContact() {
             />
             <p className="text-sm">
               I consent to my data being processed by Yates Martial Arts and
-              Fitness using formsubmit.co
+              Fitness using formsubmit.co (Review our{" "}
+              <a className="link link-hover link-primary" href="">
+                Privacy Policy
+              </a>
+              ).
             </p>
           </div>
           <p

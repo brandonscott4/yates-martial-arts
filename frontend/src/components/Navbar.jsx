@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { IconMenu2 } from "@tabler/icons-react";
 import { useState } from "react";
+import Logo from "../assets/YMA_Logo.png";
 
 function Navbar() {
   const [isHamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
@@ -46,8 +47,8 @@ function Navbar() {
           </div>
           <NavLink to="/">
             <img
-              src="/YMA_Logo.png"
-              alt="Yates martial arts logo"
+              src={Logo}
+              alt="Yates Martial Arts logo"
               className=" h-20 w-24 lg:h-24 lg:w-28"
             />
           </NavLink>

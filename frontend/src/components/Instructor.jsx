@@ -1,12 +1,13 @@
 import { Link, useParams } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import Portait from "../assets/portrait.jpeg";
 
 function Instructor() {
   const instructorDetails = {
     "luke-yates": {
       id: 1,
       fullname: "Sensei Luke Yates",
-      image: "/portrait.jpeg",
+      image: Portait,
       bio: "Sensei Luke has trained relentlessly since the age of 11 achieving a 1st Dan black belt in both karate and kickboxing. Luke has represented England for over 7 years in karate competing in both kata and kumite, achieving a bronze medal in individual senior kumite at the 2023 World championships alongside multiple World, European and national medals. Luke has been instructing for the past 7 years and has coached various England athletes at international tournaments. Having studied Sport and Exercise for Health at university, Luke is an highly qualified instructor with qualifications in sports nutrition, sports massage and is a level 3 qualified personal trainer. Luke utilises both his martial arts experience and education to enhance the quality of his teaching to ensure that his students receive the best coaching and training possible",
       achievements: [
         "Karate 1st Dan",
@@ -39,7 +40,7 @@ function Instructor() {
     "vicky-yates": {
       id: 2,
       fullname: "Sensei Vicky Yates",
-      image: "/portrait.jpeg",
+      image: Portait,
       bio: "Sensei Vicky began training at the age of 19 in Shotokan karate. She then moved on to learn a different style of karate, Ishinryu and now has over 30 years of experience as a 3rd Dan black belt as well as achieving a 1st Dan black belt in kickboxing. Vicky has been competing at international level for over 8 years and became World champion in 2022 in the veterans individual kumite category as well as multiple World, European and national titles in both kata and kumite. Having coached top England athletes at international tournaments she has established herself as a top instructor and coach. In addition to her martial arts experience and achievements, Vicky is a qualified specialist teacher and councillor and is very experienced in teaching children with special educational and additional needs.",
       achievements: [
         "Karate 3rd Dan",
@@ -83,7 +84,7 @@ function Instructor() {
     "lucy-yates": {
       id: 3,
       fullname: "Sensei Lucy Yates",
-      image: "/portrait.jpeg",
+      image: Portait,
       bio: "Sensei Lucy began training when she was 8, achieving her 1st Dan black belt in both karate andkickboxing. Lucy is also a very successful competitor in karate and became World, European and British champion in Inclusive kata and combat in 2022. Specialising in Shito-ryu Lucy currently represents England in Shitoryu kata and placed 6th in the World championships in 2023. Lucy has a wealth of experience having represented her country for over 6 years worldwide. Her achievements are inspirational as she has chronic health conditions that she overcomes, making her an incredibly patient and inspirational instructor with great attention to detail.",
       achievements: [
         "Karate 1st Dan",
@@ -127,7 +128,7 @@ function Instructor() {
                     </button>
                   </Link>
                 </div>
-                <p className="text-md">{selectedInstructor.bio}</p>
+                <p>{selectedInstructor.bio}</p>
               </Fade>
             </div>
             <img

@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import Portrait from "../assets/portrait.jpeg";
 
 function Instructors() {
   return (
@@ -13,10 +14,7 @@ function Instructors() {
           </Fade>
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
-              <img
-                src="/portrait.jpeg"
-                alt="Headshot of instructor Luke Yates"
-              />
+              <img src={Portrait} alt="Portrait of instructor Luke Yates" />
             </figure>
             <div className="card-body">
               <h3 className="card-title">Luke Yates</h3>
@@ -35,10 +33,7 @@ function Instructors() {
         <div className="py-20 w-full flex justify-center">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3 border">
             <figure>
-              <img
-                src="/portrait.jpeg"
-                alt="Headshot of instructor Vicky Yates"
-              />
+              <img src={Portrait} alt="Headshot of instructor Vicky Yates" />
             </figure>
             <div className="card-body">
               <h3 className="card-title">Vicky Yates</h3>
@@ -57,10 +52,7 @@ function Instructors() {
         <div className=" py-20 w-full flex justify-center bg-sky-100">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
-              <img
-                src="/portrait.jpeg"
-                alt="Headshot of instructor Lucy Yates"
-              />
+              <img src={Portrait} alt="Headshot of instructor Lucy Yates" />
             </figure>
             <div className="card-body">
               <h3 className="card-title">Lucy Yates</h3>
