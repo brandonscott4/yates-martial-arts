@@ -1,4 +1,5 @@
 import { Fade } from "react-awesome-reveal";
+import HomeDojo from "../assets/dojo.jpg";
 
 function ClassesPrices() {
   return (
@@ -152,21 +153,34 @@ function ClassesPrices() {
             </ul>
           </div>
         </div>
-        <div className="mt-24 pb-20 w-full">
-          <div className="flex flex-col items-center justify-center mx-4">
-            <h3 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
-              1-TO-1
-            </h3>
-            <div className="flex items-center justify-center w-11/12 xl:w-2/3 shadow-xl bg-white rounded-2xl p-14">
-              <p className="text-base md:text-lg">
-                Our instructors offer private 1-to-1 sessions to our students in
-                our fully equipped home dojo providing individualised coaching
-                focusing on specific areas of karate such as: kata, kumite,
-                kihon, grading work, competition training as well as strength
-                and fitness training. Private lessons are an excellent
-                opportunity to accelerate progress from tailored feedback in a
-                1-to-1 environment.
-              </p>
+
+        <Fade triggerOnce>
+          <h2 className="font-bold text-3xl md:text-4xl mb-12 text-center mt-24">
+            1-TO-1
+          </h2>
+        </Fade>
+        <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col md:flex-row gap-10 mx-5 justify-center items-center md:items-stretch w-4/5 xl:w-2/3">
+            <div className="w-full md:w-2/3 lg:w-1/2">
+              <img src={HomeDojo} alt="Home dojo" className="rounded-2xl" />
+            </div>
+            <div className="bg-white rounded-2xl w-full md:w-4/5 shadow-xl flex flex-col items-center justify-center">
+              <div className="p-10 flex flex-col gap-10">
+                <Fade triggerOnce>
+                  <p className="text-base md:text-sm lg:text-lg font-medium">
+                    Our instructors offer private 1-to-1 sessions to our
+                    students in our fully equipped home dojo providing
+                    individualised coaching focusing on specific areas of karate
+                    such as: kata, kumite, kihon, grading work, competition
+                    training as well as strength and fitness training.
+                  </p>
+
+                  <p className="text-base md:text-sm lg:text-lg font-medium">
+                    Private lessons are an excellent opportunity to accelerate
+                    progress from tailored feedback in a 1-to-1 environment.
+                  </p>
+                </Fade>
+              </div>
             </div>
           </div>
         </div>

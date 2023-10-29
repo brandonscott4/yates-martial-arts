@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
 
+import PrivacyPolicy from "../assets/Yates Martial Arts and Fitness Privacy Policy.pdf";
+
 function JoinContact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -219,7 +221,12 @@ function JoinContact() {
             <p className="text-sm">
               I consent to my data being processed by Yates Martial Arts and
               Fitness using formsubmit.co (Review our{" "}
-              <a className="link link-hover link-primary" href="">
+              <a
+                className="link link-hover link-primary"
+                href={PrivacyPolicy}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Privacy Policy
               </a>
               ).

@@ -4,6 +4,11 @@ import {
   IconBrandTiktok,
 } from "@tabler/icons-react";
 
+import PrivacyPolicy from "../assets/Yates Martial Arts and Fitness Privacy Policy.pdf";
+import HealthSafety from "../assets/Yates Martial Arts and Fitness Health and Safety Policy.pdf";
+import Safeguarding from "../assets/Yates Martial Arts and Fitness Safeguarding & Child Protection Policy and Procedures.pdf";
+import GDPR from "../assets/Yates Martial Arts and Fitness- General Data Protection Regulation Policy.pdf";
+
 function Footer() {
   return (
     <>
@@ -25,25 +30,35 @@ function Footer() {
           </div>
         </nav>
         <nav className="flex gap-4">
-          <a className="link link-hover">Privacy Policy</a>
           <a
             className="link link-hover"
-            href="/Yates Martial Arts and Fitness Health and Safety Policy.pdf"
+            href={PrivacyPolicy}
             target="_blank"
+            rel="noreferrer"
+          >
+            Privacy Policy
+          </a>
+          <a
+            className="link link-hover"
+            href={HealthSafety}
+            target="_blank"
+            rel="noreferrer"
           >
             Health & Safety Policy
           </a>
           <a
             className="link link-hover"
-            href="Yates Martial Arts and Fitness Safeguarding & Child Protection Policy and Procedures.pdf"
+            href={Safeguarding}
             target="_blank"
+            rel="noreferrer"
           >
             Safeguarding & Child Protection Policy
           </a>
           <a
             className="link link-hover"
-            href="Yates Martial Arts and Fitness- General Data Protection Regulation Policy.pdf"
+            href={GDPR}
             target="_blank"
+            rel="noreferrer"
           >
             GDPR Policy
           </a>
