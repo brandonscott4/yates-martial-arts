@@ -206,9 +206,9 @@ function ClassesPrices() {
             <div className="relative bg-white shadow-md w-48 h-72 p-4 rounded-xl border border-black">
               <Fade triggerOnce>
                 <div className="absolute left-0 -ml-4 top-5">
-                  <p className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
+                  <h4 className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
                     Little Ninjas
-                  </p>
+                  </h4>
                 </div>
                 <div className="mt-12 text-center flex flex-col gap-3">
                   <div>
@@ -248,10 +248,10 @@ function ClassesPrices() {
             <div className="relative bg-white shadow-md w-48 h-72 p-4 rounded-xl border border-black">
               <Fade triggerOnce>
                 <div className="absolute left-0 -ml-4 top-5">
-                  <p className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black leading-5">
+                  <h4 className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black leading-5">
                     Karate or <br />
                     Kickboxing
-                  </p>
+                  </h4>
                 </div>
                 <div className="mt-14 text-center flex flex-col gap-3">
                   <div>
@@ -291,9 +291,9 @@ function ClassesPrices() {
             <div className="relative bg-white shadow-md w-48 h-72 p-4 rounded-xl border border-black">
               <Fade triggerOnce>
                 <div className="absolute left-0 -ml-4 top-5">
-                  <p className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
+                  <h4 className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
                     Body Blitz
-                  </p>
+                  </h4>
                 </div>
                 <div className="mt-16 text-center flex flex-col gap-3">
                   <div>
@@ -324,9 +324,9 @@ function ClassesPrices() {
             <div className="relative bg-white shadow-md w-48 h-72 p-4 rounded-xl border border-black">
               <Fade triggerOnce>
                 <div className="absolute left-0 -ml-4 top-5">
-                  <p className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
+                  <h4 className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
                     Combo 1
-                  </p>
+                  </h4>
                 </div>
                 <div className="mt-16 text-center flex flex-col gap-3">
                   <p className="font-medium text-base">Karate & Kickboxing</p>
@@ -349,9 +349,9 @@ function ClassesPrices() {
             <div className="relative bg-white shadow-md w-48 h-72 p-4 rounded-xl border border-black">
               <Fade triggerOnce>
                 <div className="absolute left-0 -ml-4 top-5">
-                  <p className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
+                  <h4 className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
                     Combo 2
-                  </p>
+                  </h4>
                 </div>
                 <div className="mt-16 text-center flex flex-col gap-3">
                   <p className="font-medium text-base">
@@ -376,9 +376,9 @@ function ClassesPrices() {
             <div className="relative bg-white shadow-md w-48 h-72 p-4 rounded-xl border border-black">
               <Fade triggerOnce>
                 <div className="absolute left-0 -ml-4 top-5">
-                  <p className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
+                  <h4 className="bg-blue-300 px-2 py-1 rounded-md font-bold text-xl text-black">
                     Combo 3
-                  </p>
+                  </h4>
                 </div>
                 <div className="mt-16 text-center flex flex-col gap-3">
                   <p className="font-medium text-base">
