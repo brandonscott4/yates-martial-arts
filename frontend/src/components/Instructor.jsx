@@ -87,7 +87,7 @@ function Instructor() {
       id: 3,
       fullname: "Sensei Lucy Yates",
       image: lucyPortrait,
-      bio: "Sensei Lucy began training when she was 8, achieving her 1st Dan black belt in both karate andkickboxing. Lucy is also a very successful competitor in karate and became World, European and British champion in Inclusive kata and combat in 2022. Specialising in Shito-ryu Lucy currently represents England in Shitoryu kata and placed 6th in the World championships in 2023. Lucy has a wealth of experience having represented her country for over 6 years worldwide. Her achievements are inspirational as she has chronic health conditions that she overcomes, making her an incredibly patient and inspirational instructor with great attention to detail.",
+      bio: "Sensei Lucy began training when she was 8, achieving her 1st Dan black belt in both karate and kickboxing. Lucy is also a very successful competitor in karate and became World, European and British champion in Inclusive kata and combat in 2022. Specialising in Shito-ryu Lucy currently represents England in Shitoryu kata and placed 6th in the World championships in 2023. Lucy has a wealth of experience having represented her country for over 6 years worldwide. Her achievements are inspirational as she has chronic health conditions that she overcomes, making her an incredibly patient and inspirational instructor with great attention to detail.",
       achievements: [
         "Karate 1st Dan",
         "Kickboxing 1st Dan",
