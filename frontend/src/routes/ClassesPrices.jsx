@@ -196,9 +196,9 @@ function ClassesPrices() {
 
       <div className="py-24 w-full bg-white flex flex-col justify-center items-center">
         <Fade triggerOnce>
-          <h3 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
+          <h2 className="font-bold text-3xl lg:text-4xl mb-12 text-center">
             MEMBERSHIP FEES
-          </h3>
+          </h2>
         </Fade>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
           <div className="relative">
