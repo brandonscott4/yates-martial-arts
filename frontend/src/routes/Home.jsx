@@ -116,16 +116,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <div className="bg-white py-16 text-center">
-        <Fade triggerOnce>
-          <p className="italic">
-            The ultimate aim of Karate lies not in victory nor defeat, but in
-            the perfection of the character of its participants.” –{" "}
-            <b>Gichin Funakoshi</b>
-          </p>
-        </Fade>
-      </div>
     </>
   );
 }

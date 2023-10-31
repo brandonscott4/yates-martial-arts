@@ -1,6 +1,8 @@
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import Portrait from "../assets/portrait.jpeg";
+import lukePortrait from "../assets/luke-portrait.jpg";
+import vickyPortrait from "../assets/vicky-portrait.jpg";
+import lucyPortrait from "../assets/lucy-portrait.jpg";
 
 function Instructors() {
   return (
@@ -14,12 +16,12 @@ function Instructors() {
           </Fade>
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
-              <img src={Portrait} alt="Portrait of instructor Luke Yates" />
+              <img src={lukePortrait} alt="Portrait of instructor Luke Yates" />
             </figure>
             <div className="card-body">
               <h3 className="card-title">Luke Yates</h3>
               <p>Sensei</p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end mt-6 lg:mt-0">
                 <Link to="/instructor/luke-yates">
                   <button className="btn border border-gray-400 hover:border-gray-400">
                     Learn More
@@ -33,7 +35,10 @@ function Instructors() {
         <div className="py-20 w-full flex justify-center">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3 border">
             <figure>
-              <img src={Portrait} alt="Headshot of instructor Vicky Yates" />
+              <img
+                src={vickyPortrait}
+                alt="Headshot of instructor Vicky Yates"
+              />
             </figure>
             <div className="card-body">
               <h3 className="card-title">Vicky Yates</h3>
@@ -52,7 +57,7 @@ function Instructors() {
         <div className=" py-20 w-full flex justify-center bg-sky-100">
           <div className="card lg:card-side bg-base-100 shadow-xl lg:w-1/3">
             <figure>
-              <img src={Portrait} alt="Headshot of instructor Lucy Yates" />
+              <img src={lucyPortrait} alt="Headshot of instructor Lucy Yates" />
             </figure>
             <div className="card-body">
               <h3 className="card-title">Lucy Yates</h3>

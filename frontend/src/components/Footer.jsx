@@ -1,8 +1,4 @@
-import {
-  IconBrandInstagram,
-  IconBrandFacebook,
-  IconBrandTiktok,
-} from "@tabler/icons-react";
+import { IconBrandInstagram, IconBrandFacebook } from "@tabler/icons-react";
 
 import PrivacyPolicy from "../assets/Yates Martial Arts and Fitness Privacy Policy.pdf";
 import HealthSafety from "../assets/Yates Martial Arts and Fitness Health and Safety Policy.pdf";
@@ -18,11 +14,12 @@ function Footer() {
         </aside>
         <nav>
           <div className="flex gap-4">
-            <a>
-              <IconBrandInstagram className="h-7 w-7" />
-            </a>
-            <a>
-              <IconBrandTiktok className="h-7 w-7" />
+            <a
+              href="https://www.instagram.com/yatesmartialarts"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IconBrandInstagram className="h-7 w-7 cursor-pointer hover:text-blue-300" />
             </a>
             <a>
               <IconBrandFacebook className="h-7 w-7" />

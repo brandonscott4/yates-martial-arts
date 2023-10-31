@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { IconMenu2 } from "@tabler/icons-react";
 import { useState } from "react";
-import Logo from "../assets/YMA_Logo.png";
+import Logo from "../assets/YMA-Logo.png";
 
 function Navbar() {
   const [isHamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
