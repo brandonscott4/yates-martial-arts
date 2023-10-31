@@ -31,6 +31,9 @@ function ClassesPrices() {
                     <p>DA2 7DW</p>
                   </div>
                   <div className="divider"></div>
+                  <p className="text-center mb-2 font-medium text-sky-400">
+                    Commencing 20th Nov
+                  </p>
                   <div className="flex gap-8 xl:gap-14">
                     <div>
                       <h4 className="font-bold text-xl text-center">
@@ -110,6 +113,9 @@ function ClassesPrices() {
                     <p>DA3 8JT</p>
                   </div>
                   <div className="divider"></div>
+                  <p className="text-center mb-2 font-medium text-sky-400">
+                    Commencing 20th Nov
+                  </p>
                   <div className="gap-8 xl:gap-14">
                     <div>
                       <h4 className="font-bold text-xl text-center">Monday</h4>
@@ -167,7 +173,7 @@ function ClassesPrices() {
             <div className="bg-white rounded-2xl w-full md:w-4/5 shadow-xl flex flex-col items-center justify-center">
               <div className="p-10 flex flex-col gap-10">
                 <Fade triggerOnce>
-                  <p className="text-base md:text-sm lg:text-lg font-medium">
+                  <p className="text-base md:text-sm lg:text-xl font-medium">
                     Our instructors offer private 1-to-1 sessions to our
                     students in our fully equipped home dojo providing
                     individualised coaching focusing on specific areas of karate
@@ -175,7 +181,7 @@ function ClassesPrices() {
                     training as well as strength and fitness training.
                   </p>
 
-                  <p className="text-base md:text-sm lg:text-lg font-medium">
+                  <p className="text-base md:text-sm lg:text-xl font-medium">
                     Private lessons are an excellent opportunity to accelerate
                     progress from tailored feedback in a 1-to-1 environment.
                   </p>
@@ -372,7 +378,46 @@ function ClassesPrices() {
             </div>
           </div>
         </div>
-        <p className="text-3xl font-bold my-12">First lesson free!</p>
+        <p className="text-3xl font-bold my-12 underline decoration-blue-300 underline-offset-4">
+          First lesson free!
+        </p>
+        <div className="divider"></div>
+        <h3 className="font-bold text-3xl md:text-4xl text-center mt-12">
+          License Fees
+        </h3>
+        <h4 className="font-semibold text-xl text-center mb-12">
+          For Karate, Kickboxing and Little Ninjas only
+        </h4>
+
+        <div className="flex flex-col items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mb-12">
+            <div className="relative">
+              <div className="absolute bg-blue-300 w-52 h-40 rounded-xl top-2 left-2"></div>
+              <div className="relative bg-white shadow-md w-52 h-40 rounded-xl border border-black flex items-center justify-center">
+                <div className="text-center flex flex-col gap-2">
+                  <p className="font-bold text-lg">
+                    Karate, Kickboxing or Little Ninjas
+                  </p>
+                  <p className="text-4xl font-bold text-blue-300">£35</p>
+                  <p className="font-semibold text-lg">Annually</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="absolute bg-blue-300 w-52 h-40 rounded-xl top-2 left-2"></div>
+              <div className="relative bg-white shadow-md w-52 h-40 rounded-xl border border-black flex items-center justify-center">
+                <div className="text-center flex flex-col gap-2">
+                  <p className="font-bold text-lg">
+                    Karate & Kickboxing <br /> (Combo 1)
+                  </p>
+                  <p className="text-4xl font-bold text-blue-300">£40</p>
+                  <p className="font-semibold text-lg">Annually</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="divider"></div>
         <div className="flex flex-col items-center justify-center">
           <h3 className="font-bold text-3xl md:text-4xl mt-12">
@@ -422,49 +467,12 @@ function ClassesPrices() {
               </div>
             </div>
           </div>
-          <p className="text-2xl md:text-3xl font-bold mt-12 text-center mb-6">
+          <p className="text-2xl md:text-3xl font-bold mt-12 text-center mb-6 underline decoration-blue-300 underline-offset-4">
             First private lesson half price!
           </p>
           <p className="text-base md:text-lg font-medium text-center mb-12">
             Small groups or pair lessons can be arranged, contact us for prices.
           </p>
-        </div>
-        <div className="divider"></div>
-        <h3 className="font-bold text-3xl md:text-4xl text-center mt-12">
-          License Fees
-        </h3>
-        <h4 className="font-semibold text-xl text-center mb-12">
-          For Karate, Kickboxing and Little Ninjas only
-        </h4>
-
-        <div className="flex flex-col items-center justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-            <div className="relative">
-              <div className="absolute bg-blue-300 w-52 h-40 rounded-xl top-2 left-2"></div>
-              <div className="relative bg-white shadow-md w-52 h-40 rounded-xl border border-black flex items-center justify-center">
-                <div className="text-center flex flex-col gap-2">
-                  <p className="font-bold text-lg">
-                    Karate, Kickboxing or Little Ninjas
-                  </p>
-                  <p className="text-4xl font-bold text-blue-300">£35</p>
-                  <p className="font-semibold text-lg">Annually</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative">
-              <div className="absolute bg-blue-300 w-52 h-40 rounded-xl top-2 left-2"></div>
-              <div className="relative bg-white shadow-md w-52 h-40 rounded-xl border border-black flex items-center justify-center">
-                <div className="text-center flex flex-col gap-2">
-                  <p className="font-bold text-lg">
-                    Karate & Kickboxing <br /> (Combo 1)
-                  </p>
-                  <p className="text-4xl font-bold text-blue-300">£40</p>
-                  <p className="font-semibold text-lg">Annually</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>

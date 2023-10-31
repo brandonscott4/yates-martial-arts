@@ -151,7 +151,7 @@ function JoinContact() {
             id="name"
             name="name"
             type="text"
-            placeholder="Jane Doe"
+            placeholder="John Doe"
             value={name}
             onChange={handleChange}
           ></input>
@@ -169,7 +169,7 @@ function JoinContact() {
             id="email"
             name="email"
             type="email"
-            placeholder="janedoe@gmail.com"
+            placeholder="johndoe@gmail.com"
             value={email}
             onChange={handleChange}
           ></input>
