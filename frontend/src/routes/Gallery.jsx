@@ -16,6 +16,8 @@ import lucyPodium from "../assets/lucy-podium.jpg";
 import yatesPodium from "../assets/yates-podium.jpg";
 import vickyPodium from "../assets/vicky-podium.jpg";
 import lukeKata2 from "../assets/luke-kata2.jpg";
+import lucyPodium2 from "../assets/lucy-podium2.jpg";
+import vickyPodium2 from "../assets/vicky-podium2.jpg";
 
 function Gallery() {
   const images = [
@@ -27,6 +29,9 @@ function Gallery() {
     },
     {
       original: vickyFight,
+    },
+    {
+      original: vickyPodium2,
     },
     {
       original: lucyKata2,
@@ -47,19 +52,22 @@ function Gallery() {
       original: lukePodium2,
     },
     {
+      original: lucyPodium2,
+    },
+    {
       original: lukeKata2,
     },
     {
       original: yatesPodium,
     },
     {
-      original: lukeFight2,
-    },
-    {
       original: vickyPodium,
     },
     {
       original: lucyPodium,
+    },
+    {
+      original: lukeFight2,
     },
   ];
 
