@@ -38,8 +38,13 @@ function Navbar() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/classes-prices" onClick={toggleHamburgerMenu}>
-                    Classes & Prices
+                  <NavLink to="/classes" onClick={toggleHamburgerMenu}>
+                    Classes
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/prices" onClick={toggleHamburgerMenu}>
+                    Prices
                   </NavLink>
                 </li>
                 <li>
@@ -67,7 +72,10 @@ function Navbar() {
               <NavLink to="/instructors">Instructors</NavLink>
             </li>
             <li>
-              <NavLink to="/classes-prices">Classes & Prices</NavLink>
+              <NavLink to="/classes">Classes</NavLink>
+            </li>
+            <li>
+              <NavLink to="/prices">Prices</NavLink>
             </li>
             <li>
               <NavLink to="/gallery">Gallery</NavLink>

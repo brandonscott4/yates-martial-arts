@@ -6,10 +6,11 @@ import Root from "./routes/root";
 import ErrorPage from "./error-page";
 import Home from "./routes/Home";
 import Instructors from "./routes/Instructors";
-import ClassesPrices from "./routes/ClassesPrices";
+import Classes from "./routes/Classes";
 import Gallery from "./routes/Gallery";
 import JoinContact from "./routes/JoinContact";
 import Instructor from "./components/Instructor";
+import Prices from "./routes/Prices";
 
 const router = createBrowserRouter([
   {
@@ -26,8 +27,12 @@ const router = createBrowserRouter([
         element: <Instructors />,
       },
       {
-        path: "classes-prices",
-        element: <ClassesPrices />,
+        path: "classes",
+        element: <Classes />,
+      },
+      {
+        path: "prices",
+        element: <Prices />,
       },
       {
         path: "contact",
