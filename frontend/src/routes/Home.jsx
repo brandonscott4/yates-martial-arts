@@ -6,8 +6,8 @@ function Home() {
   return (
     <>
       <div className="relative">
-        <div className="bg-[url('assets/karate-woman.jpg')] h-[calc(100vh-110px)] w-full grayscale bg-cover bg-[center_25%]"></div>
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
+        <div className="bg-[url('assets/hero-image.png')] h-[calc(100vh-110px)] w-full bg-cover bg-[center_25%]"></div>
+        <div className="absolute -top-36 lg:-top-48 w-full h-full flex flex-col items-center justify-center">
           <Fade cascade damping={0.4} triggerOnce>
             <p className="text-white text-2xl">WELCOME TO</p>
             <h1 className="text-white font-bold text-4xl sm:text-6xl mt-3">
