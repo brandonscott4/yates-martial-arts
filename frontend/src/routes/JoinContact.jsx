@@ -135,7 +135,7 @@ function JoinContact() {
         <form
           className="bg-white w-4/5 sm:w-3/4 lg:w-1/2 2xl:w-2/6 mx-8 px-8 sm:px-20 py-10 shadow-xl rounded-2xl"
           onSubmit={handleSubmit}
-          action="https://formsubmit.co/df15969adab72323ec498058a5895f32"
+          action="https://formsubmit.co/yatesmartialarts@gmail.com"
           method="POST"
         >
           <label
