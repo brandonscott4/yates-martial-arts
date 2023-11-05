@@ -21,8 +21,12 @@ function Footer() {
             >
               <IconBrandInstagram className="h-7 w-7 cursor-pointer hover:text-blue-300" />
             </a>
-            <a>
-              <IconBrandFacebook className="h-7 w-7" />
+            <a
+              href="https://www.facebook.com/profile.php?id=61552706806655"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IconBrandFacebook className="h-7 w-7 cursor-pointer hover:text-blue-300" />
             </a>
           </div>
         </nav>

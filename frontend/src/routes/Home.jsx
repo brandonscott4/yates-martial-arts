@@ -8,8 +8,8 @@ function Home() {
       <div className="relative">
         <div className="bg-[url('assets/hero-image.png')] h-[calc(100vh-110px)] w-full bg-cover bg-[center_25%]"></div>
         <div className="absolute top-0 left-0 w-full h-full flex flex-col">
-          <Fade cascade damping={0.4} triggerOnce>
-            <div className="mt-16 md:mt-24">
+          <div className="mt-16 md:mt-24">
+            <Fade cascade damping={0.4} triggerOnce>
               <p className="text-white text-2xl text-center">WELCOME TO</p>
               <h1 className="text-white font-bold text-4xl sm:text-6xl mt-3 text-center">
                 Yates Martial Arts
@@ -25,12 +25,12 @@ function Home() {
                   </button>
                 </NavLink>
               </div>
-            </div>
+            </Fade>
+          </div>
 
-            <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-              <IconCircleArrowDown className="text-white w-8 h-8 animate-bounce" />
-            </div>
-          </Fade>
+          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+            <IconCircleArrowDown className="text-white w-8 h-8 animate-bounce" />
+          </div>
         </div>
       </div>
 
