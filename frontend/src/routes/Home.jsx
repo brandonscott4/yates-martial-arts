@@ -7,21 +7,26 @@ function Home() {
     <>
       <div className="relative">
         <div className="bg-[url('assets/hero-image.png')] h-[calc(100vh-110px)] w-full bg-cover bg-[center_25%]"></div>
-        <div className="absolute -top-36 lg:-top-48 w-full h-full flex flex-col items-center justify-center">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col">
           <Fade cascade damping={0.4} triggerOnce>
-            <p className="text-white text-2xl">WELCOME TO</p>
-            <h1 className="text-white font-bold text-4xl sm:text-6xl mt-3">
-              Yates Martial Arts
-            </h1>
-            <p className="text-white text-s sm:text-lg text-center mt-6">
-              A family run club for all ages and abilities.
-            </p>
+            <div className="mt-16 md:mt-24">
+              <p className="text-white text-2xl text-center">WELCOME TO</p>
+              <h1 className="text-white font-bold text-4xl sm:text-6xl mt-3 text-center">
+                Yates Martial Arts
+              </h1>
+              <p className="text-white text-s sm:text-lg text-center mt-6">
+                A family run club for all ages and abilities.
+              </p>
 
-            <NavLink to="/contact">
-              <button className="btn bg-sky-300 w-36 mt-12 hover:bg-sky-400 border-0">
-                Get Started
-              </button>
-            </NavLink>
+              <div className="text-center mt-12">
+                <NavLink to="/contact">
+                  <button className="btn bg-sky-300 w-36 hover:bg-sky-400 border-0">
+                    Get Started
+                  </button>
+                </NavLink>
+              </div>
+            </div>
+
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
               <IconCircleArrowDown className="text-white w-8 h-8 animate-bounce" />
             </div>
