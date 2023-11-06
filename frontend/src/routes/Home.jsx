@@ -28,7 +28,7 @@ function Home() {
             </Fade>
           </div>
 
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+          <div className="absolute bottom-14 md:bottom-10 left-1/2 transform -translate-x-1/2">
             <IconCircleArrowDown className="text-white w-8 h-8 animate-bounce" />
           </div>
         </div>
