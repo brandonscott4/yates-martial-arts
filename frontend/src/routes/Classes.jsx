@@ -31,9 +31,6 @@ function Classes() {
                     <p>DA2 7DW</p>
                   </div>
                   <div className="divider"></div>
-                  <p className="text-center mb-2 font-medium text-sky-400">
-                    (Commencing Week of 20th Nov)
-                  </p>
                   <div className="flex gap-8 xl:gap-14">
                     <div>
                       <h4 className="font-bold text-xl text-center">
@@ -113,9 +110,6 @@ function Classes() {
                     <p>DA3 8JT</p>
                   </div>
                   <div className="divider"></div>
-                  <p className="text-center mb-2 font-medium text-sky-400">
-                    (Commencing Week of 20th Nov)
-                  </p>
                   <div className="gap-8 xl:gap-14">
                     <div>
                       <h4 className="font-bold text-xl text-center">Monday</h4>
