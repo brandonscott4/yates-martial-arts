@@ -142,7 +142,7 @@ function JoinContact() {
             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
             htmlFor="name"
           >
-            Name
+            Name*
           </label>
           <input
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
@@ -160,7 +160,7 @@ function JoinContact() {
             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-6"
             htmlFor="email"
           >
-            Email
+            Email*
           </label>
           <input
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
@@ -178,7 +178,7 @@ function JoinContact() {
             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-6"
             htmlFor="mobileNo"
           >
-            Mobile
+            Mobile*
           </label>
           <input
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
@@ -196,7 +196,7 @@ function JoinContact() {
             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-6"
             htmlFor="message"
           >
-            Message
+            Message*
           </label>
           <textarea
             id="message"
@@ -241,7 +241,7 @@ function JoinContact() {
           </p>
           <button
             type="submit"
-            className="btn btn-neutral btn-sm md:btn-md mt-8"
+            className="btn btn-neutral btn-sm md:btn-md mt-6"
           >
             Submit
           </button>

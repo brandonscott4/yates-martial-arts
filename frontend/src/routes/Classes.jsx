@@ -158,6 +158,65 @@ function Classes() {
 
         <Fade triggerOnce>
           <h2 className="font-bold text-3xl md:text-4xl mb-12 text-center mt-24">
+            HARTLEY
+          </h2>
+        </Fade>
+        <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col xl:flex-row gap-10 mx-5 justify-center items-center xl:items-stretch w-full xl:w-2/3">
+            <div className="relative overflow-hidden aspect-video w-4/5 xl:w-3/5">
+              <iframe
+                title="Google maps location for Hartley classes"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9960.274712398272!2d0.3056368!3d51.3834158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b4f35f5686e3%3A0xcff2330f09a178b9!2sHartley%20Village%20Hall!5e0!3m2!1sen!2suk!4v1706798497217!5m2!1sen!2suk"
+                className="absolute top-0 left-0 w-full h-full rounded-2xl"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="bg-white rounded-2xl w-4/5 xl:w-2/5 shadow-xl flex flex-col items-center justify-center">
+              <div className="p-10">
+                <Fade triggerOnce>
+                  <div className="text-left text-lg font-medium md:text-xl">
+                    <p>Hartley Village Hall</p>
+                    <p>Ash Rd, Hartley</p>
+                    <p>Longfield</p>
+                    <p>DA3 8EL</p>
+                  </div>
+                  <div className="divider"></div>
+                  <div className="gap-8 xl:gap-14">
+                    <div>
+                      <h4 className="font-bold text-xl text-center">
+                        Thursday
+                      </h4>
+                      <h5 className="text-sky-400 italic font-bold">
+                        (Commencing 15th February)
+                      </h5>
+                      <div className="flex flex-col items-center justify-center flex-wrap gap-3 mt-4">
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Karate</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal">6:00pm-6:50pm</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Kickboxing</p>
+                          <p className="font-medium text-sky-400">Age 6+</p>
+                          <p className="font-normal">6:50pm-7:40pm</p>
+                        </div>
+                        <div className="text-center">
+                          <p className="font-medium text-xl">Body Blitz</p>
+                          <p className="font-medium text-sky-400">Age 12+</p>
+                          <p className="font-normal">7:40pm-8:30pm</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <Fade triggerOnce>
+          <h2 className="font-bold text-3xl md:text-4xl mb-12 text-center mt-24">
             PRIVATE LESSONS
           </h2>
         </Fade>
