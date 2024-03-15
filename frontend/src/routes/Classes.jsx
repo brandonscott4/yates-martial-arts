@@ -187,9 +187,6 @@ function Classes() {
                       <h4 className="font-bold text-xl text-center">
                         Thursday
                       </h4>
-                      <h5 className="text-sky-400 italic font-bold">
-                        (Commencing 15th February)
-                      </h5>
                       <div className="flex flex-col items-center justify-center flex-wrap gap-3 mt-4">
                         <div className="text-center">
                           <p className="font-medium text-xl">Karate</p>
