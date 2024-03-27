@@ -2,6 +2,10 @@ import { Fade } from "react-awesome-reveal";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
+import certificates from "../assets/certificates.jpg";
+import certificates2 from "../assets/certificates2.jpg";
+import certificates3 from "../assets/certificates3.jpg";
+import competition from "../assets/competition.jpg";
 import lucyKata from "../assets/lucy-kata.jpg";
 import lukeFight from "../assets/luke-fight.jpg";
 import vickyFight from "../assets/vicky-fight.jpg";
@@ -21,6 +25,18 @@ import vickyPodium2 from "../assets/vicky-podium2.jpg";
 
 function Gallery() {
   const images = [
+    {
+      original: certificates,
+    },
+    {
+      original: certificates2,
+    },
+    {
+      original: certificates3,
+    },
+    {
+      original: competition,
+    },
     {
       original: lukeFight,
     },
