@@ -6,11 +6,13 @@ import Safeguarding from "../assets/Yates Martial Arts and Fitness Safeguarding 
 import GDPR from "../assets/Yates Martial Arts and Fitness- General Data Protection Regulation Policy.pdf";
 
 function Footer() {
+  const currYear = new Date().getFullYear();
+
   return (
     <>
       <footer className="flex flex-col gap-6 justify-between items-center p-10 bg-neutral text-neutral-content text-sm">
         <aside>
-          <p>Copyright © 2023 - Yates Martial Arts</p>
+          <p>Copyright © {currYear} - Yates Martial Arts</p>
         </aside>
         <nav>
           <div className="flex gap-4">
