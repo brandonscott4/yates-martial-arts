@@ -52,6 +52,16 @@ function Navbar() {
                     Gallery
                   </NavLink>
                 </li>
+                <li>
+                  <a
+                    href="https://yatesfitnessandhealth.co.uk"
+                    onClick={toggleHamburgerMenu}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Yates Fitness
+                  </a>
+                </li>
               </ul>
             )}
           </div>
@@ -79,6 +89,15 @@ function Navbar() {
             </li>
             <li>
               <NavLink to="/gallery">Gallery</NavLink>
+            </li>
+            <li>
+              <a
+                href="https://yatesfitnessandhealth.co.uk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Yates Fitness
+              </a>
             </li>
           </ul>
         </div>
