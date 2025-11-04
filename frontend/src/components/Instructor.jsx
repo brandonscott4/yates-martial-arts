@@ -113,7 +113,7 @@ function Instructor() {
         "GB Open Inclusive Kata Gold Medalist, 2022",
         "British Championships Inclusive Combat Gold Medalist, 2023",
         "British Championships Individual Kata Bronze Medalist, 2023, 2025",
-        "British Championships individual Kata Silver Medal 2025",
+        "British Championships Individual Kata Silver Medal 2025",
       ],
       international_titles: [
         "Inclusive Kata Gold Medalist, WUKF World Championships, Florida 2022",
