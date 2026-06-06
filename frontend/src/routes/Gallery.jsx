@@ -11,6 +11,10 @@ import lukeFight from "../assets/luke-fight.jpg";
 import vickyFight from "../assets/vicky-fight.jpg";
 import ymaPad from "../assets/yma-pad.jpg";
 import padWork from "../assets/pad-work.jpg";
+import padWork2 from "../assets/pad-work2.jpg";
+import padWork3 from "../assets/pad-work3.jpg";
+import padWork4 from "../assets/pad-work4.jpg";
+import padWork5 from "../assets/pad-work5.jpg";
 import ymaPunch from "../assets/yma-punch.jpg";
 import lucyKata2 from "../assets/lucy-kata2.jpg";
 import lukePodium from "../assets/luke-podium.jpg";
@@ -22,17 +26,33 @@ import vickyPodium from "../assets/vicky-podium.jpg";
 import lukeKata2 from "../assets/luke-kata2.jpg";
 import lucyPodium2 from "../assets/lucy-podium2.jpg";
 import vickyPodium2 from "../assets/vicky-podium2.jpg";
+import ymaEnglandFlag from "../assets/yma-england-flag.jpg";
+import ymaEnglandFlag2 from "../assets/yma-england-flag2.jpg";
+import jumpExercise from "../assets/jump-exercise.jpg";
+import presentation from "../assets/presentation.jpg";
+import latviaChampionships from "../assets/latvia-championships.jpg";
+import ladderExercise from "../assets/ladder-exercise.jpg";
+import pressupExercise from "../assets/pressup-exercise.jpg";
+import christmasClass from "../assets/christmas-class.jpg";
+import karateClass from "../assets/karate-class.jpg";
+import ymaGi from "../assets/yma-gi.jpg";
+import ymaGi2 from "../assets/yma-gi2.jpg";
+import dummyKick from "../assets/dummy-kick.jpg";
+import kickExercise from "../assets/kick-exercise.jpg";
 
 function Gallery() {
   const images = [
     {
-      original: certificates,
+      original: certificates3
     },
     {
-      original: certificates2,
+      original: certificates2
     },
     {
-      original: certificates3,
+      original: ymaEnglandFlag
+    },
+    {
+      original: jumpExercise
     },
     {
       original: competition,
@@ -50,6 +70,15 @@ function Gallery() {
       original: vickyPodium2,
     },
     {
+      original: pressupExercise
+    },
+    {
+      original: christmasClass
+    },
+    {
+      original: karateClass
+    },
+    {
       original: lucyKata2,
     },
     {
@@ -62,7 +91,16 @@ function Gallery() {
       original: padWork,
     },
     {
+      original: padWork3,
+    },
+    {
+      original: padWork5,
+    },
+    {
       original: ymaPunch,
+    },
+    {
+      original: padWork2,
     },
     {
       original: lukePodium2,
@@ -85,6 +123,36 @@ function Gallery() {
     {
       original: lukeFight2,
     },
+    {
+      original: presentation
+    },
+    {
+      original: latviaChampionships
+    },
+    {
+      original: ladderExercise
+    },
+    {
+      original: padWork4,
+    },
+    {
+      original: ymaGi
+    },
+    {
+      original: certificates
+    },
+    {
+      original: ymaEnglandFlag2
+    },
+    {
+      original: ymaGi2
+    },
+    {
+      original: dummyKick
+    },
+    {
+      original: kickExercise
+    }
   ];
 
   return (
