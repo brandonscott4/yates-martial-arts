@@ -42,6 +42,7 @@ function Instructor() {
         "Senior Individual Kumite Bronze Medalist, WUKF World Championships, Dundee 2023",
         "x2 Senior Team Kumite Bronze Medalist, WUKF World Championships, Malmo 2025",
         "Senior Team Kumite Bronze Medalist, WUKF European Championships, Riga 2025",
+        "x2 Senior Team Bronze Medalist, WUKF World Championships, Cluj-Napoca 2026",
       ],
     },
     "vicky-yates": {
@@ -78,6 +79,7 @@ function Instructor() {
         "British Championships Team Kumite Bronze Medalist, 2023, 2026",
         "British Championships Team Kumite Champion, 2024",
         "British Championships Team Kumite Silver Medalist 2025",
+        "Veterans Individual Kumite Bronze Medalist, English Championships 2026",
       ],
       international_titles: [
         "Team Kumite Bronze Medallist, WUKF World Championships, Dublin 2016",
@@ -97,6 +99,11 @@ function Instructor() {
         "Veterans Team Kumite Bronze Medalist, WUKF World Championships, Malmo 2025",
         "Veterans Individual Kumite Silver Medalist, WUKF European Championships, Riga 2025",
         "Veterans Team Kumite Bronze Medalist, WUKF European Championships, Riga 2025",
+        "Veterans Individual Kumite Silver Medalist, WUKF World Championships, Cluj-Napoca 2026",
+        "Veterans Team Kumite Silver Medalist, WUKF World Championships, Cluj-Napoca 2026",
+        "Veterans Individual Kumite Silver Medalist, WUKF European Championships, Sheffield 2026",
+        "Veterans Individual Kata Silver Medalist, WUKF European Championships, Sheffield 2026",
+        "Veterans Team Kumite Silver Medalist, WUKF European Championships, Sheffield 2026",
       ],
     },
     "lucy-yates": {
@@ -117,6 +124,7 @@ function Instructor() {
         "British Championships Inclusive Combat Gold Medalist, 2023",
         "British Championships Individual Kata Bronze Medalist, 2023, 2025",
         "British Championships Individual Kata Silver Medal 2025",
+        "x2 Senior Individual Kata Silver Medalist, English Championships 2026"
       ],
       international_titles: [
         "Inclusive Kata Gold Medalist, WUKF World Championships, Florida 2022",
